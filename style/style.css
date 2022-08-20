@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
   font-family: "Montserrat", sans-serif;
->>>>>>> b6b16999e4efe6c05973d437a4056f687ebb6c9b
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
@@ -108,11 +105,7 @@
   padding: 10px 25px;
   border-radius: 25px;
   font-size: 25px;
-<<<<<<< HEAD
-  color: white;
-=======
   color: BLACK;
->>>>>>> b6b16999e4efe6c05973d437a4056f687ebb6c9b
   transition: 0.3s ease-in-out;
 }
 .hajj-section .hero-section .content-hero-center button:hover {
@@ -210,12 +203,6 @@
   width: 100%;
   height: 300px;
 }
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-=======
->>>>>>> b6b16999e4efe6c05973d437a4056f687ebb6c9b
 .hajj-section .footer {
   width: 100%;
   min-height: 40vh;
@@ -227,7 +214,6 @@
   height: 80px;
 }
 
->>>>>>> 081db06482cb66a05212d2fd813cceb9015c2501
 @media screen and (max-width: 992px) {
   .hajj-section .hero-section .navbar .menu {
     width: 80%;
@@ -289,22 +275,11 @@
   border-radius: 15px;
   transition: 1s;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 081db06482cb66a05212d2fd813cceb9015c2501
->>>>>>> b6b16999e4efe6c05973d437a4056f687ebb6c9b
 
 .imgFon:hover {
   transform: scale(1.1);
   transition: 1s;
   cursor: pointer;
-<<<<<<< HEAD
-  box-shadow: 0px 0px 0px 3px rgb(85, 51, 51);
-}/*# sourceMappingURL=style.css.map */
-=======
   box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
 }
 
@@ -335,12 +310,4 @@
   transition: 1s;
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
-<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
-=======
-}/*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> 243b0d48b16269e719497ca5cd07c6cfd7d05f25
->>>>>>> 081db06482cb66a05212d2fd813cceb9015c2501
->>>>>>> b6b16999e4efe6c05973d437a4056f687ebb6c9b
