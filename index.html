@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Modal style -->
+    <link rel="stylesheet" href="style/modal.css">
     <!-- Loader style -->
-    <!-- <link rel="stylesheet" href="style/loader.css"> -->
+    <link rel="stylesheet" href="style/loader.css">
     <!-- Global style -->
     <link rel="stylesheet" href="style/style.css">
     <title>Umra</title>
@@ -23,7 +25,7 @@
 <body>
 
 
-    <!-- <div class="loader">
+    <div class="loader">
         <main>
             <div class="preloader">
                 <div class="preloader__square"></div>
@@ -34,7 +36,7 @@
             <div class="status">Loading<span class="status__dot">.</span><span class="status__dot">.</span><span
                     class="status__dot">.</span></div>
         </main>
-    </div> -->
+    </div>
     <div class="hajj-section">
         <!-- hero section start -->
         <div class="hero-section">
@@ -51,10 +53,12 @@
                     <li><a href="#makka">Makkadagi ziyoratlar</a></li>
                     <li><a href="#madina">Madinadagi ziyoratlar</a></li>
                     <li><a href="#paketlar">Paketlar</a></li>
-                    <li><a href="#">Biz xizmatlar</a></li>
-                    <li>Aloqa</li>
+                    <li><a href="#servise">Biz xizmatlar</a></li>
                 </ul>
                 <div class="menu-bars">
+                    <div class="aloqa">
+                        <li id="myBtn">Aloqa</li>
+                    </div>
                     <i id="menu-action" class="fas fa-bars fa-lg fa-fw"></i>
                 </div>
             </nav>
@@ -71,7 +75,29 @@
             </div>
         </div>
         <!-- hero section end -->
+        <!-- Modal start -->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h3 style="text-align: center;">Biz bilan bog'langing</h3>
+                </div>
+                <div class="modal-body">
+                    <label for="name">Ismingiz</label>
+                    <input type="text" id="name">
+                    <label for="number">Telefon raqamiz</label>
+                    <input type="number" id="number" placeholder="+998 *** ** **">
+                </div>
+                <div class="modal-footer">
+                    <button id="send">Jo'natish</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- Modal end -->
         <!-- Makkadagi ziyoratlar start -->
         <div class="makka" id="makka">
             <div class="container">
@@ -162,11 +188,11 @@
                                 <h3>SILVER</h3>
                             </div>
                             <div class="card-body">
-                                    <span>Madinada 7 kun</span>
-                                    <span>Makkada 13 kun</span>
-                                    <span>Mehmonxonalarni 4*</span>
-                                    <span>2 mahal ovqatlanish</span>
-                                    <span>3-4 kishilik honalar</span>
+                                <span>Madinada 7 kun</span>
+                                <span>Makkada 13 kun</span>
+                                <span>Mehmonxonalarni 4*</span>
+                                <span>2 mahal ovqatlanish</span>
+                                <span>3-4 kishilik honalar</span>
 
                             </div>
                         </div>
@@ -208,11 +234,11 @@
                                 <h3>SILVER</h3>
                             </div>
                             <div class="card-body">
-                                    <span>Madinada 5 kun</span>
-                                    <span>Makkada 15 kun</span>
-                                    <span>Mehmonxonalarni 4*</span>
-                                    <span>2 mahal ovqatlanish</span>
-                                    <span>3-4 kishilik honalar</span>
+                                <span>Madinada 5 kun</span>
+                                <span>Makkada 15 kun</span>
+                                <span>Mehmonxonalarni 4*</span>
+                                <span>2 mahal ovqatlanish</span>
+                                <span>3-4 kishilik honalar</span>
 
                             </div>
                         </div>
@@ -236,10 +262,12 @@
         </div>
         <!-- paketlar end -->
         <!-- Bizni xizmatlar start -->
-        <div class="service">
+        <div class="service" id="servise">
             <div class="container">
                 <div class="row">
-                    <div class="col-12"><p>Bizning xizmatlar</p></div>
+                    <div class="col-12">
+                        <p>Bizning xizmatlar</p>
+                    </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <img src="assets/images/umra visa.jpg" alt="">
                         <h3>Umra visa</h3>
@@ -273,14 +301,14 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    
+
                 </div>
             </div>
         </div>
         <!-- Footer end -->
     </div>
 
-
+    <script src="js/modal.js"></script>
     <script src="js/main.js"></script>
 </body>
 

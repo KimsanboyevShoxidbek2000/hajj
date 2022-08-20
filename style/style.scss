@@ -14,7 +14,7 @@ body {
 }
 
 .hajj-section {
-    display: block;
+    display: none;
 
     .hero-section {
         width: 100%;
@@ -59,7 +59,7 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                width: 70%;
+                width: 60%;
                 list-style: none;
                 
                 li {
@@ -68,6 +68,7 @@ body {
                         color: white;
                         font-size: 16px;
                     }
+<<<<<<< HEAD
                     
                     &:last-child {
                         font-size: 18px;
@@ -84,13 +85,31 @@ body {
                             color: black;
                         }
                     }
+=======
+                }
+            }
+
+            .aloqa {
+                font-size: 18px;
+                border: none;
+                color: white;
+                border: 1px solid white;
+                padding: 6px 15px;
+                border-radius: 18px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                list-style: none;
+                &:hover {
+                    background-color: white;
+                    color: black;
+>>>>>>> ba0b1078eb7122ad7bcf7f95f7280903c1e1d4d3
                 }
             }
 
             .menu-bars {
-                display: none;
-
+                
                 i {
+                    display: none;
                     cursor: pointer;
                 }
             }
@@ -207,18 +226,21 @@ body {
     // Paketlar style
     .paketlar {
         margin: 4vh 0;
+
         .paket-name {
             text-align: center;
             font-size: 40px;
             font-weight: bold;
         }
-        strong{
+
+        strong {
             font-size: 20px;
         }
 
         .col-lg-4 {
             margin-top: 2vh;
             margin-bottom: 2vh;
+
             .card {
                 text-align: center;
                 border: 2.5px solid #fb8b24;
@@ -227,16 +249,18 @@ body {
                 background-color: black;
                 color: white;
                 border-radius: 10px;
+
                 .card-header {
                     border-bottom: 3px solid #fb8b24;
                     padding: 15px;
-                    
+
                 }
-                
+
                 .card-body {
                     text-align: left;
                     padding: 15px;
-                    span{
+
+                    span {
                         display: block;
                         margin: 10px 0;
                         font-size: 18px;
@@ -249,17 +273,19 @@ body {
     }
 
     // service style strt
-    .service{
-        .col-12{
+    .service {
+        .col-12 {
             margin-top: 4vh;
-            p{
+
+            p {
                 text-align: center;
                 font-weight: bold;
                 font-size: 40px;
             }
         }
-        .col-lg-4{
-            img{
+
+        .col-lg-4 {
+            img {
                 width: 100%;
                 height: 300px;
             }
@@ -304,7 +330,12 @@ body {
                 }
 
                 .menu-bars {
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    i{
+                        display: block;
+                        margin-left: 20px;
+                    }
                 }
 
                 .menu-active {
