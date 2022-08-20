@@ -50,19 +50,9 @@ body {
 }
 .hajj-section .hero-section .navbar .menu {
   display: flex;
-<<<<<<< HEAD
   align-items: center;
   justify-content: space-between;
-  width: 70%;
-=======
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 60%;
->>>>>>> ba0b1078eb7122ad7bcf7f95f7280903c1e1d4d3
   list-style: none;
 }
 .hajj-section .hero-section .navbar .menu li a {
@@ -70,12 +60,7 @@ body {
   color: white;
   font-size: 16px;
 }
-<<<<<<< HEAD
-.hajj-section .hero-section .navbar .menu li:last-child {
-=======
-
 .hajj-section .hero-section .navbar .aloqa {
->>>>>>> ba0b1078eb7122ad7bcf7f95f7280903c1e1d4d3
   font-size: 18px;
   border: none;
   color: white;
@@ -86,22 +71,10 @@ body {
   cursor: pointer;
   list-style: none;
 }
-<<<<<<< HEAD
-.hajj-section .hero-section .navbar .menu li:last-child:hover {
-  background-color: white;
-  color: black;
-}
-.hajj-section .hero-section .navbar .menu-bars {
-  display: none;
-}
-=======
-
 .hajj-section .hero-section .navbar .aloqa:hover {
   background-color: white;
   color: black;
 }
-
->>>>>>> ba0b1078eb7122ad7bcf7f95f7280903c1e1d4d3
 .hajj-section .hero-section .navbar .menu-bars i {
   display: none;
   cursor: pointer;
@@ -262,12 +235,8 @@ body {
     padding: 3vh 0;
   }
   .hajj-section .hero-section .navbar .menu-bars {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .hajj-section .hero-section .navbar .menu-bars i {
     display: block;
