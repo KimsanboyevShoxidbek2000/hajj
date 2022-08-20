@@ -78,16 +78,17 @@
                 cursor: pointer;
                 list-style: none;
                 background: rgb(249, 183, 139);
+
                 &:hover {
                     background-color: transparent;
                     color: white;
                     border: 1px solid rgb(249, 183, 139);
-                    
+
                 }
             }
 
             .menu-bars {
-                
+
                 i {
                     display: none;
                     cursor: pointer;
@@ -271,17 +272,71 @@
     }
 
     // Footer style start
-    .footer{
-       padding-top: 3vh;
-       width: 100%; 
-       min-height: 40vh;
-    //    margin-top: 10vh;
-       background-color: rgb(8, 8, 8);
-       color: white;
-       .footer-logo{
-        width: 80px;
-        height: 80px;
-       }
+    .footer {
+        padding-top: 3vh;
+        width: 100%;
+        min-height: 40vh;
+        //    margin-top: 10vh;
+        background-color: rgb(8, 8, 8);
+        color: white;
+
+        .footer-logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .icons {
+            margin-top: 20px;
+
+            a {
+                color: white;
+                &:nth-child(1){
+                    i{
+                      &:hover{
+                        color: #229ED9;
+                      }
+                    }
+                }
+                &:nth-child(2){
+                    i{
+                      &:hover{
+                        color: #C13584;
+                      }
+                    }
+                }
+                &:nth-child(3){
+                    i{
+                      &:hover{
+                        color: #4267B2 ;
+                      }
+                    }
+                }
+                &:nth-child(4){
+                    i{
+                      &:hover{
+                        color: #FF0000;
+                      }
+                    }
+                }
+            }
+        }
+        .col-12{
+            .title-column{
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            li{
+                list-style: none;
+                text-align: center;
+                a{
+                    color: white;
+                    line-height: 40px;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
 
@@ -301,7 +356,18 @@
     .hajj-section {
         .hero-section {
             overflow: hidden;
-
+             .content-hero-center{
+                h1{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 13px;
+                }
+                button{
+                    padding: 10px 20px;
+                    font-size: 16px;
+                }
+             }
             .navbar {
                 position: relative;
 
@@ -315,7 +381,7 @@
                     width: 50%;
                     border-top: 1.5px solid white;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content: space-evenly;
                     min-height: 90vh;
                     padding: 3vh 0;
 
@@ -324,7 +390,8 @@
                 .menu-bars {
                     display: flex;
                     align-items: center;
-                    i{
+
+                    i {
                         display: block;
                         margin-left: 20px;
                     }

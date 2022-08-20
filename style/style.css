@@ -215,6 +215,48 @@
 .hajj-section .footer .footer-logo {
   width: 80px;
   height: 80px;
+  margin-bottom: 20px;
+}
+
+.hajj-section .footer .icons {
+  margin-top: 20px;
+}
+
+.hajj-section .footer .icons a {
+  color: white;
+}
+
+.hajj-section .footer .icons a:nth-child(1) i:hover {
+  color: #229ED9;
+}
+
+.hajj-section .footer .icons a:nth-child(2) i:hover {
+  color: #C13584;
+}
+
+.hajj-section .footer .icons a:nth-child(3) i:hover {
+  color: #4267B2;
+}
+
+.hajj-section .footer .icons a:nth-child(4) i:hover {
+  color: #FF0000;
+}
+
+.hajj-section .footer .col-12 .title-column {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hajj-section .footer .col-12 li {
+  list-style: none;
+  text-align: center;
+}
+
+.hajj-section .footer .col-12 li a {
+  color: white;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 992px) {
@@ -225,6 +267,16 @@
 @media screen and (max-width: 768px) {
   .hajj-section .hero-section {
     overflow: hidden;
+  }
+  .hajj-section .hero-section .content-hero-center h1 {
+    font-size: 30px;
+  }
+  .hajj-section .hero-section .content-hero-center p {
+    font-size: 13px;
+  }
+  .hajj-section .hero-section .content-hero-center button {
+    padding: 10px 20px;
+    font-size: 16px;
   }
   .hajj-section .hero-section .navbar {
     position: relative;
@@ -238,8 +290,13 @@
     background-color: rgba(0, 0, 0, 0.9);
     width: 50%;
     border-top: 1.5px solid white;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     min-height: 90vh;
     padding: 3vh 0;
   }
