@@ -81,9 +81,9 @@
             }
 
             .menu-bars {
-                display: none;
-
+                
                 i {
+                    display: none;
                     cursor: pointer;
                 }
             }
@@ -301,7 +301,12 @@
                 }
 
                 .menu-bars {
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    i{
+                        display: block;
+                        margin-left: 20px;
+                    }
                 }
 
                 .menu-active {
