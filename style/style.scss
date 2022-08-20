@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
@@ -119,17 +122,18 @@
 
             button {
                 border: 1.5px solid white;
-                background-color: transparent;
+                background-color: hsl(24, 90%, 76%);
                 padding: 10px 25px;
                 border-radius: 25px;
                 font-size: 25px;
-                color: white;
+                color: BLACK;
                 transition: 0.3s ease-in-out;
 
                 &:hover {
                     cursor: pointer;
-                    background-color: green;
-                    border: 1.5px solid green;
+                    background-color: transparent;
+                    color: white;
+                    border: 1.5px solid hsl(24, 90%, 76%);
 
                 }
             }
