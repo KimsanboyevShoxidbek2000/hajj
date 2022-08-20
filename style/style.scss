@@ -70,16 +70,19 @@
             .aloqa {
                 font-size: 18px;
                 border: none;
-                color: white;
-                border: 1px solid white;
+                color: black;
                 padding: 6px 15px;
                 border-radius: 18px;
+                border: 1px solid white;
                 transition: 0.3s ease-in-out;
                 cursor: pointer;
                 list-style: none;
+                background: rgb(249, 183, 139);
                 &:hover {
-                    background-color: white;
-                    color: black;
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid rgb(249, 183, 139);
+                    
                 }
             }
 
@@ -122,7 +125,7 @@
 
             button {
                 border: 1.5px solid white;
-                background-color: hsl(24, 90%, 76%);
+                background-color: rgb(249, 183, 139);
                 padding: 10px 25px;
                 border-radius: 25px;
                 font-size: 25px;
@@ -278,7 +281,6 @@
        .footer-logo{
         width: 80px;
         height: 80px;
-
        }
     }
 }
@@ -399,8 +401,4 @@
     transition: 1s;
     cursor: pointer;
     box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
-<<<<<<< HEAD
-=======
-
->>>>>>> 845080565e4f0667b31253452ee445d277cd6fb1
 }
