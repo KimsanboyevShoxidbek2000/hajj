@@ -9,10 +9,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: rgb(212, 212, 212);
-}
-
 .hajj-section {
     display: none;
 
@@ -270,6 +266,14 @@ body {
             }
         }
     }
+
+    // Footer style start
+    .footer{
+       width: 100%; 
+       min-height: 40vh;
+       margin-top: 10vh;
+       background-color: rgb(8, 8, 8);
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -347,13 +351,4 @@ body {
 
 .imgFon {
     border-radius: 15px;
-    transition: 1s;
-
-}
-
-.imgFon:hover {
-    transform: scale(1.1);
-    transition: 1s;
-    cursor: pointer;
-    box-shadow: 0px 0px 0px 3px rgb(85, 51, 51);
 }
