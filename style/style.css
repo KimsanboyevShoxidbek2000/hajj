@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: rgb(212, 212, 212);
+}
+
 .hajj-section {
   display: none;
 }
@@ -347,4 +351,43 @@
 .imgFon {
   border-radius: 15px;
 }
+<<<<<<< HEAD
+
+.imgFon:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
+}
+
+.NurTogi {
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.NurTogi:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
+}
+
+.Madinadigi-ziyoratlar {
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.Madinadigi-ziyoratlar {
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.Madinadigi-ziyoratlar:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
+}/*# sourceMappingURL=style.css.map */
+=======
 /*# sourceMappingURL=style.css.map */
+>>>>>>> 243b0d48b16269e719497ca5cd07c6cfd7d05f25
