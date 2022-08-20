@@ -6,10 +6,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: rgb(212, 212, 212);
-}
-
 .hajj-section {
     display: none;
 
@@ -266,6 +262,14 @@ body {
             }
         }
     }
+
+    // Footer style start
+    .footer{
+       width: 100%; 
+       min-height: 40vh;
+       margin-top: 10vh;
+       background-color: rgb(8, 8, 8);
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -343,6 +347,7 @@ body {
 
 .imgFon {
     border-radius: 15px;
+<<<<<<< HEAD
     transition: 1s;
 
 }
@@ -384,4 +389,6 @@ body {
     cursor: pointer;
     box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
 
+=======
+>>>>>>> 243b0d48b16269e719497ca5cd07c6cfd7d05f25
 }
