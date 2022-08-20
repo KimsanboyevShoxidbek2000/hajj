@@ -261,6 +261,13 @@
   height: 300px;
 }
 
+.hajj-section .footer {
+  width: 100%;
+  min-height: 40vh;
+  margin-top: 10vh;
+  background-color: #080808;
+}
+
 @media screen and (max-width: 992px) {
   .hajj-section .hero-section .navbar .menu {
     width: 80%;
