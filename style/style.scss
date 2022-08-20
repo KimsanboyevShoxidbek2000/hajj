@@ -1,9 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(236, 236, 236);
 }
 
 .hajj-section {
@@ -12,8 +19,8 @@
     .hero-section {
         width: 100%;
         min-height: 100vh;
-        background-image: url('../assets/images/hero\ img.webp');
-        background-position: center;
+        background-image: url('../assets/images/bg.jpg');
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -27,7 +34,7 @@
             top: 0;
             left: 0;
             z-index: -1;
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.432);
         }
 
         .navbar {
@@ -54,14 +61,14 @@
                 justify-content: space-between;
                 width: 70%;
                 list-style: none;
-
+                
                 li {
                     a {
                         text-decoration: none;
                         color: white;
                         font-size: 16px;
                     }
-
+                    
                     &:last-child {
                         font-size: 18px;
                         border: none;
@@ -90,6 +97,8 @@
         }
 
         .content-hero-center {
+            background-color: rgba(128, 128, 128, 0.099);
+
             min-height: 50vh;
             display: flex;
             justify-content: center;
@@ -103,7 +112,7 @@
             // background: red;
             h1 {
 
-                font-size: 60px;
+                font-size: 40px;
 
                 span {
                     font-size: 65px;
@@ -119,17 +128,18 @@
 
             button {
                 border: 1.5px solid white;
-                background-color: transparent;
+                background-color: #F9B88E;
                 padding: 10px 25px;
                 border-radius: 25px;
                 font-size: 25px;
-                color: white;
+                color: black;
                 transition: 0.3s ease-in-out;
 
                 &:hover {
                     cursor: pointer;
-                    background-color: green;
-                    border: 1.5px solid green;
+                    color: white;
+                    background-color: transparent;
+                    border: 1.5px solid #F9B88E;
 
                 }
             }
