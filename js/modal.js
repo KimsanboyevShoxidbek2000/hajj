@@ -25,7 +25,7 @@ window.onclick = function(event) {
 
 //bot token
 let send = document.getElementById('send')
-var telegram_bot_id = "5469585305:AAFfP0rKhQFvOaFFwMUBq8PKNvbc6ZCwFjA"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
+var telegram_bot_id = "5686626652:AAFERgkKgGMIElgHls2B49MRMPwvQjIq7nQ"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
 var chat_id = -1001645843718; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
 // %0A = <br>

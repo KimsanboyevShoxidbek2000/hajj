@@ -65,7 +65,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70%;
+  width: 60%;
   list-style: none;
 }
 
@@ -75,7 +75,7 @@
   font-size: 16px;
 }
 
-.hajj-section .hero-section .navbar .menu li:last-child {
+.hajj-section .hero-section .navbar .aloqa {
   font-size: 18px;
   border: none;
   color: white;
@@ -85,9 +85,10 @@
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  list-style: none;
 }
 
-.hajj-section .hero-section .navbar .menu li:last-child:hover {
+.hajj-section .hero-section .navbar .aloqa:hover {
   background-color: white;
   color: black;
 }
