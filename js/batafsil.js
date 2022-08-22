@@ -82,3 +82,18 @@ function BtnOpen5(params) {
 closed5.onclick = function(){
     div5.style.display = "none"
 }
+
+// Bizning xizmatlar Modal
+
+
+let bizningModal = document.getElementById("modalBiznig1")
+let bizningModalYopish = document.getElementById("YopishModal1")
+
+
+function BizningOpen(params) {
+    bizningModal.style.display = "block"
+}
+
+bizningModalYopish.onclick = function() {
+    bizningModal.style.display = 'none'
+}
