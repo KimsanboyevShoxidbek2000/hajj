@@ -174,7 +174,7 @@
   border: 2.5px solid #c9c0b9;
   min-height: 20vh;
   width: 100%;
-  background-color: #F9B78B;
+  background-color: #F8F9FA;
   color: black;
   border-radius: 10px;
 }
@@ -595,4 +595,8 @@
 
 #Closed5:hover {
   color: #F9B78B;
+}
+
+.ecoomFon {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
