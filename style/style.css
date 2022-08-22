@@ -127,6 +127,12 @@
 .hajj-section .makka .container .col-lg-4 {
   text-align: center;
   margin-top: 5vh;
+  transition: 1s;
+}
+.hajj-section .makka .container .col-lg-4:hover {
+  transform: scale(1.04);
+  transition: 1s;
+  cursor: pointer;
 }
 .hajj-section .makka .container .col-lg-4 img {
   width: 100%;
@@ -217,41 +223,32 @@
   height: 80px;
   margin-bottom: 20px;
 }
-
 .hajj-section .footer .icons {
   margin-top: 20px;
 }
-
 .hajj-section .footer .icons a {
   color: white;
 }
-
 .hajj-section .footer .icons a:nth-child(1) i:hover {
   color: #229ED9;
 }
-
 .hajj-section .footer .icons a:nth-child(2) i:hover {
   color: #C13584;
 }
-
 .hajj-section .footer .icons a:nth-child(3) i:hover {
   color: #4267B2;
 }
-
 .hajj-section .footer .icons a:nth-child(4) i:hover {
   color: #FF0000;
 }
-
 .hajj-section .footer .col-12 .title-column {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .hajj-section .footer .col-12 li {
   list-style: none;
   text-align: center;
 }
-
 .hajj-section .footer .col-12 li a {
   color: white;
   line-height: 40px;
@@ -290,13 +287,8 @@
     background-color: rgba(0, 0, 0, 0.9);
     width: 50%;
     border-top: 1.5px solid white;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     min-height: 90vh;
     padding: 3vh 0;
   }
@@ -357,21 +349,30 @@
 
 .Madinadigi-ziyoratlar {
   border-radius: 10px;
-  transition: 1s;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 600px;
 }
 
 .Madinadigi-ziyoratlar {
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.Madinadigi-ziyoratlar:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  cursor: pointer;
-  box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
+  border-radius: 10px !important;
+  width: 100%;
 }
 
 .DivFoter {
   height: 70px;
+}
+
+.carousel-item {
+  height: 700px;
+  width: 100%;
+}
+
+.sliderCon {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
