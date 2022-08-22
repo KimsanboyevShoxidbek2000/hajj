@@ -321,6 +321,38 @@
   font-size: 18px;
 }
 
+.hajj-section .map {
+  position: relative;
+}
+
+.hajj-section .map .map-card {
+  width: 301px;
+  padding: 10px;
+  position: absolute;
+  top: 19vh;
+  left: 0.7%;
+  background-color: white;
+}
+
+.hajj-section .map .map-card p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hajj-section .map .map-card li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.hajj-section .map .map-card li a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.hajj-section .map .map-card li a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 992px) {
   .hajj-section .hero-section .navbar .menu {
     width: 80%;
