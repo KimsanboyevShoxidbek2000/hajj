@@ -33,14 +33,14 @@ var chat_id = -1001789685187; // 1111'ni o'rniga habar borishi kerak bo'lgan joy
 let closeModal = document.getElementById('close-modal');
 
 
-// let index = false
+let index = false
 
-// closeModal.addEventListener('click', () => {
-//     document.getElementById("name").style.display = "block";
-//     document.getElementById("number").style.display = "block";
-//     send.innerHTML = 'JO\'NATISH'
-//     index = false
-// })
+closeModal.addEventListener('click', () => {
+    document.getElementById("name").style.display = "block";
+    document.getElementById("number").style.display = "block";
+    send.innerHTML = 'JO\'NATISH'
+    index = false
+})
 
 
 send.onclick = function sendtelegram() {
@@ -51,7 +51,7 @@ send.onclick = function sendtelegram() {
     let number = document.getElementById("number").value;
     let img = document.getElementById('img').value;
 
-   console.log(u_name ,  number , img) ;
+
 
 
 
