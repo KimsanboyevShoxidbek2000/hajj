@@ -467,6 +467,10 @@
     border-radius: 10px;
     object-fit: contain;
     height: 600px;
+    // border: 1px solid red;
+}
+.Madinadigi-ziyoratlar img{
+    // height: 300px;
 }
 
 .Madinadigi-ziyoratlar {
@@ -499,4 +503,14 @@
 
 .carousel-item  {
     text-align: center;
+    @media (max-width: 569px) {
+        height: auto;
+    }
+    
 }
+
+.sarlavxa {
+    padding-top: 20px;
+}
+
+
