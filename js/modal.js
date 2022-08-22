@@ -49,14 +49,16 @@ send.onclick = function sendtelegram() {
     let name1 = document.getElementById('name1')
     let u_name = document.getElementById("name").value;
     let number = document.getElementById("number").value;
-  
-   console.log(u_name ,  number);
+    let img = document.getElementById('img').value;
+
+   console.log(u_name ,  number , img) ;
+
 
 
 
 
     if(u_name.length > 0 && number.length >= 9) {
-        let message = "Ismi: " + u_name + "%0A\nTel: " + number;
+        let message = ("Ismi: " + u_name + "%0A\nTel: " + number) + img;
         let url = `https://api.telegram.org/bot${telegram_bot_id}/sendMessage?chat_id=${chat_id}&text=${message}&parse_node=html`;
         let api = new XMLHttpRequest()
         api.open('POST', url, true);
