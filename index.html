@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap-grid.min.css"
         integrity="sha512-8zKdCtHHn4yrmrAKteDmaIVUMppsWMTlaZCffpRG6k6sVHwWQ2kiJOFQ22e7dSPc7yYD/GC5onkJCfxemQsyeQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -106,28 +107,32 @@
         <div class="makka" id="makka">
             <div class="container">
                 <div class="row">
+
+
+
+
                     <div class="col-12">
                         <p class="makka-name">Makkadagi ziyoratlar</p>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="NurTogi" src="assets/images/nur togi.webp" alt="">
-                        <h3>NUR TOG'I (HIRO G'ORI)</h3>
+                        <h6 class="sarlavxa">NUR TOG'I (HIRO G'ORI)</h6>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="NurTogi" src="assets/images/savr togi.webp" alt="">
-                        <h3>SAVR TOG'I</h3>
+                        <h6 class="sarlavxa">SAVR TOG'I</h6>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="NurTogi" src="assets/images/arofat.jpg" alt="">
-                        <h3>AROFAT TOG'I</h3>
+                        <h6 class="sarlavxa">AROFAT TOG'I</h6>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="NurTogi" src="assets/images/muzdalifa.jpg" alt="">
-                        <h3>MUZDALIFA</h3>
+                        <h6 class="sarlavxa">MUZDALIFA</h6>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="NurTogi" src="assets/images/mino.webp" alt="">
-                        <h3>MINO</h3>
+                        <h6 class="sarlavxa">MINO</h6>
                     </div>
                 </div>
             </div>
@@ -135,7 +140,7 @@
         <!-- sadasda -->
         <!-- Makkadagi ziyoratlar end -->
         <!-- Makkadagi ziyoratlar start -->
-        <div class="madina" id="madina" style="background-color: rgb(188, 252, 208);">
+        <div class="madina" id="madina" style="background-color: rgb(255, 255, 255);">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -143,28 +148,98 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="Madinadigi-ziyoratlar" src="assets/images/qubo masjidi.jpg" alt="">
-                        <h3>QUBO MASJIDI</h3>
+                        <h6 class="sarlavxa">QUBO MASJIDI</h6>
+                        <!-- <p style="border: 1px solid red;">Madina shahridagi ziyorat qilinadigan o'rinlardan biri “Kubo” masjididir. “Kubo” masjidi Islomda birinchilanadi masjid xisob. Paygambarimiz sollallohu alayhi vasallam Madinaga kuchib utayotgan paytlarida Madina yulida kubo deb nomlangan joiga etib, usha bir necha kun turganlar. U erda birinchi bulib “Kubo” masjidiga asos solganlar vailk o'sha masjidda zhamoat namozini o'qiganlar.</p> -->
+                        <button onclick="BtnOpen()" class="buttonBatafsil">Batafsil</button>
+                        
+                        <div id="bataf">
+                            <div class="modaldiv">
+                                <span id="Closed1"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div>
+                        <img class="Madinadigi-ziyoratlarr" src="assets/images/qubo masjidi.jpg" alt="">
+
+                                    <h2>Qubo Masjidi</h2>
+                                    <p>Madina shahridagi ziyorat qilinadigan o'rinlardan biri “Kubo” masjididir. “Kubo” masjidi Islomda birinchilanadi masjid xisob. Paygambarimiz sollallohu alayhi vasallam Madinaga kuchib utayotgan paytlarida Madina yulida kubo deb nomlangan joiga etib, usha bir necha kun turganlar. U erda birinchi bulib “Kubo” masjidiga asos solganlar vailk o'sha masjidda zhamoat namozini o'qiganlar.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="Madinadigi-ziyoratlar" src="assets/images/qiblatayin masjidi.jpeg" alt="">
-                        <h3>QIBLATAYN MASJIDI</h3>
+                        <h6 class="sarlavxa">QIBLATAYN MASJIDI</h6>
+                        <button onclick="BtnOpen2()" class="buttonBatafsil">Batafsil</button>
+                        <div id="bataf2">
+                            <div class="modaldiv2">
+                                <span id="Closed2"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div>
+                        <img class="Madinadigi-ziyoratlarr" src="assets/images/qiblatayin masjidi.jpeg" alt="">
+                                    
+                                    <h2>Qiblatayn masjidi</h2>
+                                    <p>Milodiy 623 yilda Savad ibn G'anam ibn Ka'ab tomonidan qurilgan Masjid Al Qiblatayn muborak Madina shahrida joylashgan bo'lib, Islom tarixidagi eng muhim masjidlardan biridir. Masjid Qiblatayn ikki qibla masjidi deb tarjima qilingan boʻlib, Paygʻambarimiz sollallohu alayhi vasallamga Quddusdan Makkaga qiblani (namoz oʻqish yoʻnalishini) oʻzgartirish toʻgʻrisida vahiy kelgan masjid ekanligiga ishoniladi.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="Madinadigi-ziyoratlar" src="assets/images/uhug togi.jpg" alt="">
-                        <h3>UHUD TOG'I</h3>
+                        <h6 class="sarlavxa">UHUD TOG'I</h6>
+                        <button onclick="BtnOpen3()" class="buttonBatafsil">Batafsil</button>
+
+                        <div id="bataf3">
+                            <div class="modaldiv3">
+                                <span id="Closed3"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div>
+                        <img class="Madinadigi-ziyoratlarr" src="assets/images/uhug togi.jpg" alt="">
+
+                                    <h2>Uhud Tog'i</h2>
+                                    <p>Uhudgi Madinaning shimoliy tarafida joyi muborak bir togdir. Tog'lanish tezligi 7 km, o'rganish 2-3 km, issiqlik esa 350 metrga yaqin. Tog Madinai Munavvaradan taxmonan 4-5 kilometr uzoqlikda joylashgan. Uhud togida bir necha gor va daralar mavzhud bulib, bazi gorlarning bir yarim metnni, foyda esa o'n metni tashkil etadi.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="Madinadigi-ziyoratlar" src="assets/images/hurmo bogi.jpg" alt="">
-                        <h3>HURMO BOG'I</h3>
+                        <h6 class="sarlavxa">HURMO BOG'I</h6>
+                        <button onclick="BtnOpen4()" class="buttonBatafsil">Batafsil</button>
+
+                        <div id="bataf4">
+                            <div class="modaldiv4">
+                                <span id="Closed4"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div>
+                                    <img class="Madinadigi-ziyoratlarr" src="assets/images/hurmo bogi.jpg" alt="">
+
+
+                                    <h2>Hurmo bog'i</h2>
+                                    <p>Pishgan xurmo mevalari naviga qarab sariq-qizildan to‘q jigarranggacha farq qiladi. Mazkur mevalar ko‘pincha quruq meva sifatida sotiladi. Xurmolarning quritilganligini ularning tashqi ko‘rinishiga qarab aniqlash mumkin. Po‘sti qanchalik silliq bo‘lsa, meva shunchalik yangi bo‘ladi..</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <img class="Madinadigi-ziyoratlar" src="assets/images/quron.jpg" alt="">
-                        <h3>QUR'ON BOSMAXONASI</h3>
+                        <h6 class="sarlavxa">QUR'ON BOSMAXONASI</h6>
+                        <button onclick="BtnOpen5()" class="buttonBatafsil">Batafsil</button>
+
+                        <div id="bataf5">
+                            <div class="modaldiv5">
+                                <span id="Closed5"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div>
+                        <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt="">
+
+                                    <h2>Qur'on bosmaxonasi</h2>
+                                    <p>Kuroni Karim 22 yil 2 oy 22 kun mobainida Rasulullohga (solllohu alayhi vasallam) oyatlar holida nozil bulgan. Oyat Kuroni Karim harflaridan bir fosila bilan azhralgan ilohy kalomdir. Oyati karimalar orasida bir sahifaga uzun oyatlar bulishi bilan birga o'rtacha uzunlikda va bitta suzdan iborat bulganlari ham bor. Biror vazn yoki sheriy ruhga ega emas. Kuroni Karimning o'z ruhi bor va u ilohiy vahining yuksak hikmatlarini zhamlagan ilohiy kalomdir.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h1>salom</h1>
         <!-- Makkadagi ziyoratlar end -->
         <!-- paketlar start -->
         <div class="paketlar" id="paketlar">
@@ -374,10 +449,11 @@
             </div>
         </div>
         <!-- Footer end -->
-    </div>
+    </div>  
 
     <script src="js/modal.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/batafsil.js"></script>
 </body>
 
 </html>
