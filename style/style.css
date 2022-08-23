@@ -325,13 +325,37 @@
   position: relative;
 }
 
+.hajj-section .map .manzil {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  padding: 10px 15px;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-animation: manzil;
+          animation: manzil;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .hajj-section .map .map-card {
   width: 301px;
   padding: 10px;
-  position: absolute;
-  top: 19vh;
+  position: fixed;
+  bottom: 120px;
   left: 0.7%;
   background-color: white;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .hajj-section .map .map-card p {
@@ -352,6 +376,11 @@
 
 .hajj-section .map .map-card li a:hover {
   text-decoration: underline;
+}
+
+.hajj-section .map .menuCardActive {
+  -webkit-transform: translateX(0) !important;
+          transform: translateX(0) !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -1199,5 +1228,35 @@
 
 .modalCard6 {
   padding-top: 40px;
+}
+
+@-webkit-keyframes manzil {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes manzil {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,14 +8,31 @@ let menu = document.querySelector('#menu')
 setTimeout(() => {
     loader.style.display = 'none'
     hajjSection.style.display = 'block'
-}, 500)
+}, 50)
 
 
-menuAction.addEventListener('click' , () => {
+menuAction.addEventListener('click', () => {
     menu.classList.toggle('menu-active')
     menuAction.classList.toggle('fa-times')
     menuAction.classList.toggle('fa-bars')
 })
+
+
+let menuCard = document.getElementById('map-card')
+let indexMapCard = false
+function openManzil() {
+    if (indexMapCard) {
+        menuCard.classList.add('menuCardActive')
+        indexMapCard = false
+        document.querySelector('.manzil').innerHTML = '<i class="fas fa-times fa-lg fa-fw"></i>'
+    }
+    else {
+        menuCard.classList.remove('menuCardActive')
+        document.querySelector('.manzil').innerHTML = '<i class="fas fa-location-dot fa-lg fa-fw"></i> Manzilimiz'
+        indexMapCard = true
+    }
+    // alert('hi')
+}
 
 
 
