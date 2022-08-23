@@ -73,7 +73,7 @@
                 color: black;
                 padding: 6px 15px;
                 border-radius: 18px;
-                border: 1px solid  rgb(249, 183, 139);
+                border: 1px solid rgb(249, 183, 139);
                 transition: 0.3s ease-in-out;
                 cursor: pointer;
                 list-style: none;
@@ -225,7 +225,7 @@
                 border: 2.5px solid #c9c0b9;
                 min-height: 20vh;
                 width: 100%;
-                background-color:#F8F9FA;
+                background-color: #F8F9FA;
                 color: black;
                 border-radius: 10px;
 
@@ -291,45 +291,52 @@
 
             a {
                 color: white;
-                &:nth-child(1){
-                    i{
-                      &:hover{
-                        color: #229ED9;
-                      }
+
+                &:nth-child(1) {
+                    i {
+                        &:hover {
+                            color: #229ED9;
+                        }
                     }
                 }
-                &:nth-child(2){
-                    i{
-                      &:hover{
-                        color: #C13584;
-                      }
+
+                &:nth-child(2) {
+                    i {
+                        &:hover {
+                            color: #C13584;
+                        }
                     }
                 }
-                &:nth-child(3){
-                    i{
-                      &:hover{
-                        color: #4267B2 ;
-                      }
+
+                &:nth-child(3) {
+                    i {
+                        &:hover {
+                            color: #4267B2;
+                        }
                     }
                 }
-                &:nth-child(4){
-                    i{
-                      &:hover{
-                        color: #FF0000;
-                      }
+
+                &:nth-child(4) {
+                    i {
+                        &:hover {
+                            color: #FF0000;
+                        }
                     }
                 }
             }
         }
-        .col-12{
-            .title-column{
+
+        .col-12 {
+            .title-column {
                 margin-bottom: 10px;
                 text-align: center;
             }
-            li{
+
+            li {
                 list-style: none;
                 text-align: center;
-                a{
+
+                a {
                     color: white;
                     line-height: 40px;
                     text-decoration: none;
@@ -337,36 +344,65 @@
                 }
             }
         }
-       
+
     }
-     // map style start
-     .map{
+
+    // map style start
+    .map {
         position: relative;
-        .map-card{
+
+        .manzil {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            padding: 10px 15px;
+            background-color: aqua;
+            border-radius: 20px;
+            cursor: pointer;
+            animation: manzil;
+            animation-duration: 1.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            &:hover{
+                // transform: translateY(-20px);
+            }
+        }
+
+        .map-card {
             width: 301px;
             padding: 10px;
-            position: absolute;
-            top: 19vh;
+            position: fixed;
+            bottom: 120px;
             left: 0.7%;
             background-color: white;
-            p{
+            transform: translateX(-150%);
+            transition: 0.3s ease-in-out;
+             box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+            p {
                 font-size: 16px;
                 line-height: 26px;
             }
-            li{
+
+            li {
                 list-style: none;
                 font-size: 16px;
-                a{
+
+                a {
                     font-size: 16px;
                     text-decoration: none;
                     color: black;
-                    &:hover{
+
+                    &:hover {
                         text-decoration: underline;
                     }
                 }
             }
         }
+        .menuCardActive{
+            transform: translateX(0) !important;
+        }
     }
+
     // map style end
 }
 
@@ -386,18 +422,22 @@
     .hajj-section {
         .hero-section {
             overflow: hidden;
-             .content-hero-center{
-                h1{
+
+            .content-hero-center {
+                h1 {
                     font-size: 30px;
                 }
-                p{
+
+                p {
                     font-size: 13px;
                 }
-                button{
+
+                button {
                     padding: 10px 20px;
                     font-size: 16px;
                 }
-             }
+            }
+
             .navbar {
                 position: relative;
 
@@ -517,22 +557,31 @@
 }
 
 .buttonBatafsil:hover {
-    
-transform: scale(1.05);
+
+    transform: scale(1.05);
 }
 
 #bataf {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 #Closed1 {
@@ -559,11 +608,12 @@ transform: scale(1.05);
     border: 1px solid #888;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+
     p {
         font-size: 18px;
     }
@@ -572,19 +622,28 @@ transform: scale(1.05);
 // 2 chi modal
 
 #bataf2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 
-    p{
+    p {
         font-size: 20px;
     }
 }
@@ -595,11 +654,11 @@ transform: scale(1.05);
     background-color: #fefefe;
     margin: auto;
     padding: 0 2%;
-    
+
     border: 1px solid #888;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -627,17 +686,26 @@ transform: scale(1.05);
 
 
 #bataf3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 
     p {
         font-size: 20px;
@@ -650,11 +718,11 @@ transform: scale(1.05);
     background-color: #fefefe;
     margin: auto;
     padding: 0 2%;
-    
+
     border: 1px solid #888;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -680,17 +748,27 @@ transform: scale(1.05);
 // 4chi modal
 
 #bataf4 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+
+    /* Black w/ opacity */
     p {
         font-size: 20px;
     }
@@ -702,11 +780,11 @@ transform: scale(1.05);
     background-color: #fefefe;
     margin: auto;
     padding: 0 2%;
-    
+
     border: 1px solid #888;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -735,17 +813,26 @@ transform: scale(1.05);
 // 
 
 #bataf5 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 
     p {
         font-size: 20px;
@@ -758,11 +845,11 @@ transform: scale(1.05);
     background-color: #fefefe;
     margin: auto;
     padding: 0 2%;
-    
+
     border: 1px solid #888;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -797,19 +884,28 @@ transform: scale(1.05);
 }
 
 #modalBiznig1 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
-    
+
 .modalBiznig1 {
     position: relative;
     background-color: #fefefe;
@@ -819,7 +915,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -854,26 +950,29 @@ transform: scale(1.05);
     position: absolute;
     right: 0;
     padding-right: 5px;
-    
+
 }
+
 #YopishModal1:hover {
     color: #fb8b24;
     cursor: pointer;
 }
+
 .quronmatnn {
     text-align: center;
 }
+
 .quronimatn {
     font-size: 20px !important;
 }
 
-.Madinadigi-ziyoratlarr {
-}
+.Madinadigi-ziyoratlarr {}
 
 .modalCard1 {
     padding-top: 40px;
-  
+
 }
+
 .bold {
     font-weight: 600;
     font-size: 18px;
@@ -882,17 +981,26 @@ transform: scale(1.05);
 
 
 #modalBiznig2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 .modalBiznig2 {
@@ -904,7 +1012,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -917,6 +1025,7 @@ transform: scale(1.05);
     right: 0;
     padding-right: 5px;
 }
+
 .mexmonsize {
     font-size: 14px !important;
     padding-top: 5px;
@@ -924,21 +1033,30 @@ transform: scale(1.05);
 
 .modalCard2 {
     padding-top: 40px;
-  
+
 }
 
 #modalBiznig3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 .modalBiznig3 {
@@ -950,7 +1068,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -965,17 +1083,26 @@ transform: scale(1.05);
 }
 
 #modalBiznig4 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 
@@ -988,7 +1115,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -1004,22 +1131,31 @@ transform: scale(1.05);
 
 .modalCard4 {
     padding-top: 40px;
-  
+
 }
 
 
 #modalBiznig5 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 
@@ -1032,7 +1168,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -1051,22 +1187,31 @@ transform: scale(1.05);
 
 .modalCard5 {
     padding-top: 40px;
-  
+
 }
 
 
 #modalBiznig6 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 
@@ -1079,7 +1224,7 @@ transform: scale(1.05);
     width: 50%;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -1098,7 +1243,7 @@ transform: scale(1.05);
 
 .modalCard6 {
     padding-top: 40px;
-  
+
 }
 
 
@@ -1358,5 +1503,18 @@ transform: scale(1.05);
 .modalCard55 {
     padding-top: 40px;
   
+}
+
+
+@keyframes manzil {
+     0% {
+        transform: translateY(0);
+    }
+    50%{
+       transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
