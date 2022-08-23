@@ -97,3 +97,75 @@ function BizningOpen(params) {
 bizningModalYopish.onclick = function() {
     bizningModal.style.display = 'none'
 }
+
+
+
+// ____________________________
+let bizningModal2 = document.getElementById("modalBiznig2")
+let bizningModalYopish2 = document.getElementById("YopishModal2")
+
+
+function BizningOpen2(params) {
+    bizningModal2.style.display = "block"
+}
+
+bizningModalYopish2.onclick = function() {
+    bizningModal2.style.display = 'none'
+}
+
+
+
+
+// __________________________
+
+let bizningModal3 = document.getElementById("modalBiznig3")
+let bizningModalYopish3 = document.getElementById("YopishModal3")
+
+
+function BizningOpen3(params) {
+    bizningModal3.style.display = "block"
+}
+
+bizningModalYopish3.onclick = function() {
+    bizningModal3.style.display = 'none'
+}
+
+// _______________________________
+
+
+let bizningModal4 = document.getElementById("modalBiznig4")
+let bizningModalYopish4 = document.getElementById("YopishModal4")
+
+
+function BizningOpen4(params) {
+    bizningModal4.style.display = "block"
+}
+
+bizningModalYopish4.onclick = function() {
+    bizningModal4.style.display = 'none'
+}
+
+
+let bizningModal5 = document.getElementById("modalBiznig5")
+let bizningModalYopish5 = document.getElementById("YopishModal5")
+
+
+function BizningOpen5(params) {
+    bizningModal5.style.display = "block"
+}
+
+bizningModalYopish5.onclick = function() {
+    bizningModal5.style.display = 'none'
+}
+
+let bizningModal6 = document.getElementById("modalBiznig6")
+let bizningModalYopish6 = document.getElementById("YopishModal6")
+
+
+function BizningOpen6(params) {
+    bizningModal6.style.display = "block"
+}
+
+bizningModalYopish6.onclick = function() {
+    bizningModal6.style.display = 'none'
+}
