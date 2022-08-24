@@ -124,6 +124,15 @@
   font-size: 40px;
   font-weight: bold;
 }
+.hajj-section .makka .container .col-6 {
+  margin-top: 20px;
+  transition: 1.3s;
+}
+.hajj-section .makka .container .col-6:hover {
+  transform: scale(1.1);
+  transition: 1.1s;
+  cursor: pointer;
+}
 .hajj-section .makka .container .col-lg-4 {
   text-align: center;
   margin-top: 5vh;
@@ -365,6 +374,18 @@
   color: red !important;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.imgFon1 {
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.imgFon1:hover {
+  transform: scale(1.05);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
 }
 
 .imgFon {
@@ -789,6 +810,14 @@
   font-size: 20px !important;
 }
 
+.Madinadigi-ziyoratlarr1 {
+  width: 100%;
+}
+
+.Madinadigi-ziyoratlarr {
+  border-radius: 7px;
+}
+
 .modalCard1 {
   padding-top: 40px;
 }
@@ -1070,7 +1099,7 @@
   padding: 0 2%;
   border: 1px solid #888;
   width: 100%;
-  height: 100vh;
+  height: 100 auto;
   position: relative;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1084,10 +1113,12 @@
   position: absolute;
   right: 0;
   padding-right: 30px;
+  padding-top: 10px;
 }
 
 .modalCard11 {
   padding-top: 40px;
+  display: flex;
 }
 
 #YopishModal11:hover {
@@ -1115,7 +1146,8 @@
   margin: auto;
   padding: 0 2%;
   border: 1px solid #888;
-  width: 50%;
+  width: 100%;
+  height: auto;
   position: relative;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1127,6 +1159,7 @@
 
 #YopishModal22 {
   padding-right: 30px;
+  padding-top: 10px;
   position: absolute;
   right: 0;
 }
@@ -1160,7 +1193,8 @@
   margin: auto;
   padding: 0 2%;
   border: 1px solid #888;
-  width: 50%;
+  width: 100%;
+  height: auto;
   position: relative;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1173,6 +1207,7 @@
 #YopishModal33 {
   position: absolute;
   right: 0;
+  padding-top: 10px;
   padding-right: 30px;
 }
 
@@ -1273,6 +1308,11 @@
 
 .modalCard55 {
   padding-top: 40px;
+}
+
+.matnsiz18 {
+  font-size: 18px;
+  padding-top: 15px;
 }
 
 @-webkit-keyframes manzil {
