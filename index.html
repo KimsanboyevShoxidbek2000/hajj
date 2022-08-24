@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap-grid.min.css"
         integrity="sha512-8zKdCtHHn4yrmrAKteDmaIVUMppsWMTlaZCffpRG6k6sVHwWQ2kiJOFQ22e7dSPc7yYD/GC5onkJCfxemQsyeQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- aos animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,10 +24,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Umra</title>
 </head>
-
 <body>
-
-
     <div class="loader">
         <main>
             <div class="preloader">
@@ -48,10 +43,7 @@
             <!-- navbar -->
             <nav class="navbar">
                 <div class="brand">
-
                     <img src="assets/images/logo.png" alt="">
-
-
                 </div>
                 <ul class="menu" id="menu">
                     <li><a href="#">Biz haqimizda</a></li>
@@ -83,7 +75,6 @@
         <!-- Modal start -->
         <!-- The Modal -->
         <div id="myModal" class="modal">
-
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
@@ -93,12 +84,10 @@
                         jo‘nating, tez orada <br> menejerimiz siz bilan bog‘lanadi.</p>
                 </div>
                 <div class="modal-body">
-
                     <!-- <input type="file" id="img" accept="image/*,.pdf"> -->
                     <input type="text" id="name" placeholder="Ismingizni kiriting">
                     <span id="name1" style="color: red; font-size: 16px; display: none; margin-top:5px ;">Ismingizni
                         kiriting</span> <br>
-
                     <input style="margin-top:30px;" type="number" id="number"
                         placeholder="Telefon raqamiz kiriting +998 *** ** **">
                     <span id="number1" style="color: red; font-size: 16px; display: none; margin-top: 5px;">Telefon
@@ -108,36 +97,183 @@
                     <button id="send">Jo'natish</button>
                 </div>
             </div>
-
         </div>
         <!-- Modal end -->
         <!-- Makkadagi ziyoratlar start -->
         <div class="makka" id="makka">
             <div class="container">
                 <div class="row">
-
-
-
-
                     <div class="col-12">
                         <p class="makka-name">Makkadagi ziyoratlar</p>
                     </div>
+                    <!-- data-aos="fade-right" -->
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="NurTogi" src="assets/images/nur togi.webp" alt="">
+                        <img data-aos="fade-down"  class="NurTogi" src="assets/images/nur togi.webp" alt="">
                         <h6 class="sarlavxa">NUR TOG'I (HIRO G'ORI)</h6>
+                        <div style="width: 100%; display: flex; justify-content:center;">
+                            <button onclick="BizningOpen11()" class="buttonBatafsil1">Batafsil</button>
+
+                        </div>
+
+                        <div id="modalBiznig11">
+                            <div class="modalBiznig11">
+                                <span id="YopishModal11"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div class="modalCard11">
+                                    <div  class="container">
+                                        <div class="row">
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/nur togi.webp" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aaaaaaaaaaaaaaa.jpeg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/nurr.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/nur44.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/22222.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makeToq.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makkeToqlar.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makkeToq.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="matnsiz18">Tog‘larning deyarli barchasi Saudiya Arabistonida bo‘lib, ularning qadimiy nomi muhim tarixiy voqealarga bog‘liq. Shu boisdan aksari muqaddas sanaladi va butun dunyo musulmonlari ushbu tog‘larga ziyoratga keladi.
+
+                                                    Sofa va Marva Makkadagi ikki muqaddas tepalik. Ularga borish haj va umrani bajarish amallaridan biri hisoblanadi. Qur’oni Karimda:
+
+                                                    إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَآئِرِ اللّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلاَ جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا وَمَن تَطَوَّعَ خَيْراً فَإِنَّ اللّهَ شَاكِرٌ عَلِيمٌ
+
+                                                    “Albatta, Safo va Marva Alloh(dini)ning belgilaridandir. Kim Baytullohni haj yoki umra qilsa, ikkovlari o‘rtasida sa’yi qilish gunoh emas. Kim yaxshilikni xolisona qilsa, bas, albatta, Alloh shukr qiluvchi va biluvchidir. (Oyatda Alloh taolo: “Kim Baytullohni haj yoki umra qilsa, ikkovlari o‘rtasida sa’yi qilish gunoh emas”, deydi. Ushbu oyat hujjat bo‘lib shariatimizda Safo va Marva tepaliklari o‘rtasida sa’yi qilish vojib amal, deb belgilangan. Oyatda sa’yi qilish vojib bo‘ladi, deyish o‘rniga, “Sa’yi qilish gunoh bo‘lmaydi”, deyilishining boisi shuki, ikkala tepalikda but borligi uchun, sa’yi qilish mushriklarning ishi, gunoh bo‘ladi, deb o‘ylab musulmonlar sa’yi qilmay qo‘ygan edilar. Shuning uchun Alloh taolo gunoh bo‘lmaydi, sa’yi qilinglar, demoqda.)” (Baqara surasi, 158 oyat).</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="NurTogi" src="assets/images/savr togi.webp" alt="">
-                        <h6 class="sarlavxa">SAVR TOG'I</h6>
+                        <img data-aos="fade-down"  class="NurTogi" src="assets/images/albadir.jpg" alt="">
+                        <h6 class="sarlavxa">Alal Badr (Hallat al-Badr) , </h6>
+                        <div style="width: 100%; display: flex; justify-content:center;">
+                            <button onclick="BizningOpen22()" class="buttonBatafsil1">Batafsil</button>
+
+                        </div>
+
+                        <div id="modalBiznig22">
+                            <div class="modalBiznig22">
+                                <span id="YopishModal22"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div class="modalCard22">
+                                    <div  class="container">
+                                        <div class="row">
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/albadir.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/toq1.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/toq2.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/toq3.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/toq4.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makeToq.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makkeToqlar.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makkeToq.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="matnsiz18">Harratul-Uvairidning lava maydonida joylashgan. Ba'zi tadqiqotchilar va tahlilchilar (masalan, I. Velikovskiy va Sigmund Freyd) bu tog 'Sinay vahiyining joyidir. Ular Chiqish vaqtida vulqon faol bo'lishi mumkinligidan kelib chiqdilar.</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
+
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="NurTogi" src="assets/images/arofat.jpg" alt="">
+                        <!-- data-aos="fade-left" -->
+                        <img data-aos="fade-down"  class="NurTogi" src="assets/images/arofat.jpg" alt="">
                         <h6 class="sarlavxa">AROFAT TOG'I</h6>
+                        <div style="width: 100%; display: flex; justify-content:center;">
+                            <button onclick="BizningOpen33()" class="buttonBatafsil1">Batafsil</button>
+
+                        </div>
+
+                        <div id="modalBiznig33">
+                            <div class="modalBiznig33">
+                                <span id="YopishModal33"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div class="modalCard33">
+                                    <div  class="container">
+                                        <div class="row">
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/m3.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/m4.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/modal3.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/arafot4toq.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/arofat5.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/arofattoq5.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/makkeToqlar.jpg" alt="">
+                                            </div>
+                                            <div  class="col-lg-3 col-md-6 col-sm-6 col-6">
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/arofat6.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="matnsiz18">Harratul-Uvairidning lava maydonida joylashgan. Ba'zi tadqiqotchilar va tahlilchilar (masalan, I. Velikovskiy va Sigmund Freyd) bu tog 'Sinay vahiyining joyidir. Ular Chiqish vaqtida vulqon faol bo'lishi mumkinligidan kelib chiqdilar.</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
+
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="NurTogi" src="assets/images/muzdalifa.jpg" alt="">
+                        <!-- data-aos="fade-right" -->
+                        <img data-aos="fade-down"  class="NurTogi" src="assets/images/muzdalifa.jpg" alt="">
                         <h6 class="sarlavxa">MUZDALIFA</h6>
-<<<<<<< HEAD
                         <div style="width: 100%; display: flex; justify-content:center;">
                             <button onclick="BizningOpen44()" class="buttonBatafsil1">Batafsil</button>
 
@@ -176,7 +312,6 @@
                                             <div>
                                                 <p class="matnsiz18">Harratul-Uvairidning lava maydonida joylashgan. Ba'zi tadqiqotchilar va tahlilchilar (masalan, I. Velikovskiy va Sigmund Freyd) bu tog 'Sinay vahiyining joyidir. Ular Chiqish vaqtida vulqon faol bo'lishi mumkinligidan kelib chiqdilar.</p>
                                             </div>
-
                                         </div>
                                       
                                     </div>
@@ -197,12 +332,34 @@
 
                             </div>
                         </div>
-=======
->>>>>>> 1eaefb01b9b521b28c26ed4ec7d5707826f6df84
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="NurTogi" src="assets/images/mino.webp" alt="">
+                        <!-- data-aos="fade-left" -->
+                        <img data-aos="fade-down"  class="NurTogi" src="assets/images/mino.webp" alt="">
                         <h6 class="sarlavxa">MINO</h6>
+                        <div style="width: 100%; display: flex; justify-content:center;">
+                            <button onclick="BizningOpen55()" class="buttonBatafsil1">Batafsil</button>
+
+                        </div>
+
+                        <div id="modalBiznig55">
+                            <div class="modalBiznig55">
+                                <span id="YopishModal55"><i class="fas fa-times fa-lg fa-fw"></i></span>
+                                <div class="modalCard55">
+                                    <div class="cardimg">
+                                        <div>
+                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/minooooo.jpg" alt="">
+                                            <p class="mexmonsize">Umra tarixi milodiy 629-yilda Payg‘ambarimiz Muhammad (s.a.v.) o‘zlariga 2000 nafar izdoshlari bilan birga birinchi marta umra qilganlaridan boshlanadi. Birinchi amalga oshirilgan haj ziyorati dindor musulmonlarning ko‘p kurashlari, muzokaralari va hatto qurbonliklari natijasi bo‘lgan.
+
+                                                “Kichik ziyorat” deb ham ataladigan umra Saudiya Arabistonining Hijozi mintaqasida joylashgan musulmonlar uchun eng muqaddas shahar hisoblangan Makkaga islomiy ziyoratdir. Bu musulmonlar orasida diniy ahamiyatga ega boʻlgan ikkinchi ziyorat boʻlib, yilning istalgan vaqtida, haj kunlaridan tashqari amalga oshirilishi mumkin. Alloh taologa ibodat qilishning eng hurmatli amallaridan biri sanalgan umra Ka’bani ziyorat qilish va ba’zi muqaddas marosimlarni bajarishni o‘z ichiga oladi..</p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,11 +374,12 @@
                         <p class="makka-name">Madinadagi ziyoratlar</p>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="Madinadigi-ziyoratlar" src="assets/images/qubo masjidi.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"class="Madinadigi-ziyoratlar" src="assets/images/qubo masjidi.jpg" alt="">
                         <h6 class="sarlavxa">QUBO MASJIDI</h6>
                         <!-- <p style="border: 1px solid red;">Madina shahridagi ziyorat qilinadigan o'rinlardan biri “Kubo” masjididir. “Kubo” masjidi Islomda birinchilanadi masjid xisob. Paygambarimiz sollallohu alayhi vasallam Madinaga kuchib utayotgan paytlarida Madina yulida kubo deb nomlangan joiga etib, usha bir necha kun turganlar. U erda birinchi bulib “Kubo” masjidiga asos solganlar vailk o'sha masjidda zhamoat namozini o'qiganlar.</p> -->
                         <button onclick="BtnOpen()" class="buttonBatafsil">Batafsil</button>
-
                         <div id="bataf">
                             <div class="modaldiv">
                                 <span id="Closed1"><i class="fas fa-times fa-lg fa-fw"></i></span>
@@ -234,12 +392,11 @@
                                         joiga etib, usha bir necha kun turganlar. U erda birinchi bulib “Kubo” masjidiga
                                         asos solganlar vailk o'sha masjidda zhamoat namozini o'qiganlar.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="Madinadigi-ziyoratlar" src="assets/images/qiblatayin masjidi.jpeg" alt="">
+                        <img data-aos="zoom-in-down" class="Madinadigi-ziyoratlar" src="assets/images/qiblatayin masjidi.jpeg" alt="">
                         <h6 class="sarlavxa">QIBLATAYN MASJIDI</h6>
                         <button onclick="BtnOpen2()" class="buttonBatafsil">Batafsil</button>
                         <div id="bataf2">
@@ -248,7 +405,6 @@
                                 <div>
                                     <img class="Madinadigi-ziyoratlarr" src="assets/images/qiblatayin masjidi.jpeg"
                                         alt="">
-
                                     <h2>Qiblatayn masjidi</h2>
                                     <p>Milodiy 623 yilda Savad ibn G'anam ibn Ka'ab tomonidan qurilgan Masjid Al
                                         Qiblatayn muborak Madina shahrida joylashgan bo'lib, Islom tarixidagi eng muhim
@@ -257,12 +413,13 @@
                                         (namoz oʻqish yoʻnalishini) oʻzgartirish toʻgʻrisida vahiy kelgan masjid
                                         ekanligiga ishoniladi.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="Madinadigi-ziyoratlar" src="assets/images/uhug togi.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="Madinadigi-ziyoratlar" src="assets/images/uhug togi.jpg" alt="">
                         <h6 class="sarlavxa">UHUD TOG'I</h6>
                         <button onclick="BtnOpen3()" class="buttonBatafsil">Batafsil</button>
 
@@ -271,7 +428,6 @@
                                 <span id="Closed3"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                 <div>
                                     <img class="Madinadigi-ziyoratlarr" src="assets/images/uhug togi.jpg" alt="">
-
                                     <h2>Uhud Tog'i</h2>
                                     <p>Uhudgi Madinaning shimoliy tarafida joyi muborak bir togdir. Tog'lanish tezligi 7
                                         km, o'rganish 2-3 km, issiqlik esa 350 metrga yaqin. Tog Madinai Munavvaradan
@@ -279,12 +435,13 @@
                                         mavzhud bulib, bazi gorlarning bir yarim metnni, foyda esa o'n metni tashkil
                                         etadi.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="Madinadigi-ziyoratlar" src="assets/images/hurmo bogi.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="Madinadigi-ziyoratlar" src="assets/images/hurmo bogi.jpg" alt="">
                         <h6 class="sarlavxa">HURMO BOG'I</h6>
                         <button onclick="BtnOpen4()" class="buttonBatafsil">Batafsil</button>
 
@@ -293,20 +450,19 @@
                                 <span id="Closed4"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                 <div>
                                     <img class="Madinadigi-ziyoratlarr" src="assets/images/hurmo bogi.jpg" alt="">
-
-
                                     <h2>Hurmo bog'i</h2>
                                     <p>Pishgan xurmo mevalari naviga qarab sariq-qizildan to‘q jigarranggacha farq
                                         qiladi. Mazkur mevalar ko‘pincha quruq meva sifatida sotiladi. Xurmolarning
                                         quritilganligini ularning tashqi ko‘rinishiga qarab aniqlash mumkin. Po‘sti
                                         qanchalik silliq bo‘lsa, meva shunchalik yangi bo‘ladi..</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <img class="Madinadigi-ziyoratlar" src="assets/images/quron.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="Madinadigi-ziyoratlar" src="assets/images/quron.jpg" alt="">
                         <h6 class="sarlavxa">QUR'ON BOSMAXONASI</h6>
                         <button onclick="BtnOpen5()" class="buttonBatafsil">Batafsil</button>
 
@@ -315,7 +471,6 @@
                                 <span id="Closed5"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                 <div>
                                     <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt="">
-
                                     <h2>Qur'on bosmaxonasi</h2>
                                     <p>Kuroni Karim 22 yil 2 oy 22 kun mobainida Rasulullohga (solllohu alayhi vasallam)
                                         oyatlar holida nozil bulgan. Oyat Kuroni Karim harflaridan bir fosila bilan
@@ -324,7 +479,6 @@
                                         bor. Biror vazn yoki sheriy ruhga ega emas. Kuroni Karimning o'z ruhi bor va u
                                         ilohiy vahining yuksak hikmatlarini zhamlagan ilohiy kalomdir.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -362,7 +516,6 @@
                                 <h4>SILVER</h4>
                                 <img style="width: 100%;" style="border-radius: 10px; width: 100%;" class="ecoomFon1"
                                     src="assets/images/econom2.png" alt="">
-
                             </div>
                             <div class="card-body">
                                 <span>Madinada 7 kun</span>
@@ -370,7 +523,6 @@
                                 <span>Mehmonxonalarni 4*</span>
                                 <span>2 mahal ovqatlanish</span>
                                 <span>3-4 kishilik honalar</span>
-
                             </div>
                         </div>
                     </div>
@@ -419,7 +571,6 @@
                                 <span>Mehmonxonalarni 4*</span>
                                 <span>2 mahal ovqatlanish</span>
                                 <span>3-4 kishilik honalar</span>
-
                             </div>
                         </div>
                     </div>
@@ -451,39 +602,34 @@
                         <p>Bizning xizmatlar </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/foto1.jpg" alt="">
-                        <h6 style="margin-top:10px; text-align: center;"> <i
-                                class="fa-solid fa-plane-departure x-2"></i> UMRA VISA</h6>
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon" src="assets/images/foto1.jpg" alt="">
+                        <h6 style="margin-top:10px; text-align: center;"> <i class="fa-solid fa-plane-departure x-2"></i> UMRA VISA</h6>
                         <div style="width: 100%; display: flex; justify-content:center;">
                             <button onclick="BizningOpen()" class="buttonBatafsil1">Batafsil</button>
 
                         </div>
-
+                        
                         <div id="modalBiznig1">
                             <div class="modalBiznig1">
                                 <span id="YopishModal1"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                 <div class="modalCard1">
                                     <div class="cardimg">
                                         <div>
-                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/visauchunPasport.jpg"
-                                                alt="">
+                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/visauchunPasport.jpg" alt="">
                                         </div>
                                         <div>
 
-                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/zagpasport.jpg"
-                                                alt="">
+                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/zagpasport.jpg" alt="">
                                         </div>
                                         <!-- <div>
-
                                             <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt="">
                                         </div> -->
                                         <!-- <div>
-
                                             <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt="">
                                         </div> -->
                                     </div>
-
-
                                     <h2>Qur'on bosmaxonasi</h2>
                                     <p>Kuroni Karim 22 yil 2 oy 22 kun mobainida Rasulullohga (solllohu alayhi vasallam)
                                         oyatlar holida nozil bulgan. Oyat Kuroni Karim harflaridan bir fosila bilan
@@ -491,33 +637,29 @@
                                         bulishi bilan birga o'rtacha uzunlikda va bitta suzdan iborat bulganlari ham
                                         bor. Biror vazn yoki sheriy ruhga ega emas. Kuroni Karimning o'z ruhi bor va u
                                         ilohiy vahining yuksak hikmatlarini zhamlagan ilohiy kalomdir.</p>
-
                                     <h4 class="quronmatnn">Viza ko'magi</h4>
                                     <ul class="quronimatn">
                                         <li>2 dona rangli fotosurat</li>
                                         <li>Oq fonda 4x6 (ayollar ro'mol o'ragan holda)</li>
-                                        <h6 class="bold">Shuningdek, ziyoratchilar quyidegi talablarga javob berishlari
-                                            kerak:</h6>
+                                        <h6 class="bold">Shuningdek, ziyoratchilar quyidegi talablarga javob berishlari kerak:</h6>
                                         <li>-solomatligi;</li>
                                         <li>-tolov qobiliyati;</li>
                                         <li>ziyoratga ma'naviy tayyorgarligi;</li>
-
                                     </ul>
-
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/mexmonxona.jpg" alt="">
-                        <h6 style="margin-top:10px; text-align: center ;"><i class="fa-solid fa-hotel"></i>4-5 YULDIZLI
-                            MEHMONXONA</h6>
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon" src="assets/images/mexmonxona.jpg" alt="">
+                        <h6 style="margin-top:10px; text-align: center ;"><i class="fa-solid fa-hotel"></i>4-5 YULDIZLI MEHMONXONA</h6>
                         <div style="width: 100%; display: flex; justify-content:center;">
                             <button onclick="BizningOpen2()" class="buttonBatafsil1">Batafsil</button>
 
                         </div>
-
+                        
                         <div id="modalBiznig2">
                             <div class="modalBiznig2">
                                 <span id="YopishModal2"><i class="fas fa-times fa-lg fa-fw"></i></span>
@@ -525,197 +667,154 @@
                                     <div class="cardimg">
                                         <div>
                                             <img class="Madinadigi-ziyoratlarr" src="assets/images/gastinsa.jpg" alt="">
-                                            <p class="mexmonsize">Har bir inson vaqti-vaqti bilan chiroyli, tasalli va
-                                                sokin ta'tilga chiqishni xohlaydi, ammo dam olish kunlari uchun 5
-                                                yulduzli mehmonxonani sotib oladigan pul har kimga ham tegishli emas.
-                                                Har bir necha yilda bir marta, dam olish kunlarida sayr qilish uchun
-                                                yetarli mablag‘ni jamg‘argan bo‘lsangiz, sizda birinchi darajali
-                                                mehmonxonaga borish va shahar bo‘ylab sayohatga oz vaqt qoldirish yoki
-                                                arzonroq 4 yulduzni tanlash imkoniyati mavjud. mehmonxona va mehmonxona
-                                                atrofi taklif qiladigan eng yaxshi narsalarni ko'rish uchun yaxshi
-                                                byudjetga ega.</p>
+                                            <p class="mexmonsize">Har bir inson vaqti-vaqti bilan chiroyli, tasalli va sokin ta'tilga chiqishni xohlaydi, ammo dam olish kunlari uchun 5 yulduzli mehmonxonani sotib oladigan pul har kimga ham tegishli emas. Har bir necha yilda bir marta, dam olish kunlarida sayr qilish uchun yetarli mablag‘ni jamg‘argan bo‘lsangiz, sizda birinchi darajali mehmonxonaga borish va shahar bo‘ylab sayohatga oz vaqt qoldirish yoki arzonroq 4 yulduzni tanlash imkoniyati mavjud. mehmonxona va mehmonxona atrofi taklif qiladigan eng yaxshi narsalarni ko'rish uchun yaxshi byudjetga ega.</p>
                                         </div>
                                         <div>
 
                                             <img class="Madinadigi-ziyoratlarr" src="assets/images/gozti2.jpeg" alt="">
                                             <p class="mexmonsize">O'rta
-                                                Makkadagi Haj va Umra Ekspressidagi eng yaxshi mehmonxona | tomonidan
-                                                Hajj Umra Express | O'rta</p>
+                                                Makkadagi Haj va Umra Ekspressidagi eng yaxshi mehmonxona | tomonidan Hajj Umra Express | O'rta</p>
                                         </div>
                                         <div>
 
                                             <!-- <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt=""> -->
                                         </div>
                                         <div>
-
                                             <!-- <img class="Madinadigi-ziyoratlarr" src="assets/images/quron.jpg" alt=""> -->
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/ellikboshi.jpg" alt="">
-                        <h6 style="margin-top:10px ; text-align: center"><i class="fa-solid fa-bullhorn"></i> ELLIKBOSHI
-                        </h6>
+                        <!-- < data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"> -->
+                        <!-- <img src="assets/images/ellboshiii.jpg" alt=""> -->
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon1" src="assets/images/ellikboshi.jpg" alt="">
+                        <h6 style="margin-top:10px ; text-align: center"><i class="fa-solid fa-bullhorn"></i> ELLIKBOSHI</h6>
                         <div style="width: 100%; display: flex; justify-content:center;">
                             <button onclick="BizningOpen3()" class="buttonBatafsil1">Batafsil</button>
 
                         </div>
-
+                        
                         <div id="modalBiznig3">
                             <div class="modalBiznig3">
                                 <span id="YopishModal3"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                 <div class="modalCard2">
                                     <div class="cardimg">
                                         <div>
-                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/ellboshiii.jpg"
-                                                alt="">
-                                            <p class="mexmonsize">Saudiya Arabistoni Haj vazirligi tomonidan Oʻzbekiston
-                                                hojilarga yaratilgan shart-sharoitlar boʻyicha Malayziya, Indoneziya,
-                                                Turkiya singari birinchi beshtalik davlatlar safiga kiritildi. Bu haqda
-                                                Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Din ishlari
-                                                boʻyicha qoʻmita raisi, “Haj-2019” Ishchi guruhi rahbari Jasur Akramov
-                                                Makka shahrida yurtimiz hojilari bilan tashkil etilgan uchrashuvda
-                                                maʼlum qilindi.</p>
+                                            <img class="Madinadigi-ziyoratlarr" src="assets/images/ellboshiii.jpg" alt="">
+                                            <p class="mexmonsize">Saudiya Arabistoni Haj vazirligi tomonidan Oʻzbekiston hojilarga yaratilgan shart-sharoitlar boʻyicha Malayziya, Indoneziya, Turkiya singari birinchi beshtalik davlatlar safiga kiritildi. Bu haqda Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Din ishlari boʻyicha qoʻmita raisi, “Haj-2019” Ishchi guruhi rahbari Jasur Akramov Makka shahrida yurtimiz hojilari bilan tashkil etilgan uchrashuvda maʼlum qilindi.</p>
                                         </div>
                                         <div>
 
                                             <img class="Madinadigi-ziyoratlarr" src="assets/images/elllll.jpg" alt="">
-                                            <p class="mexmonsize">— Haj amalini bajarish uchun ushbu muqaddas
-                                                manzil-makonga yetib kelib, bekamu koʻst ibodat qilishga
-                                                intilayotganingiz, bugungi kunga qadar Paygʻambarimiz (s.a.v.)ga salom
-                                                yoʻllaganingiz, umrani ado etganingiz — ulugʻ baxt, — deydi Oʻzbekiston
-                                                Musulmonlari idorasi raisi, muftiy Usmonxon Alimov. — Bu Ollohning eng
-                                                suygan bandalariga nasib etadi. Davlatimiz tomonidan haj mavsumi
-                                                davomida sizlar uchun barcha shart-sharoit muhayyo qilib berilmoqda. Bu
-                                                Prezidentimiz tashabbusi bilan odamlarni rozi qilish yoʻlida olib
-                                                borilayotgan xayrli ishlar samarasidir. Zotan, odamlari rozi yurtga
-                                                Yaratgan ham neʼmatlarini yogʻdiradi inshaAlloh.</p>
+                                            <p class="mexmonsize">— Haj amalini bajarish uchun ushbu muqaddas manzil-makonga yetib kelib, bekamu koʻst ibodat qilishga intilayotganingiz, bugungi kunga qadar Paygʻambarimiz (s.a.v.)ga salom yoʻllaganingiz, umrani ado etganingiz — ulugʻ baxt, — deydi Oʻzbekiston Musulmonlari idorasi raisi, muftiy Usmonxon Alimov. — Bu Ollohning eng suygan bandalariga nasib etadi. Davlatimiz tomonidan haj mavsumi davomida sizlar uchun barcha shart-sharoit muhayyo qilib berilmoqda. Bu Prezidentimiz tashabbusi bilan odamlarni rozi qilish yoʻlida olib borilayotgan xayrli ishlar samarasidir. Zotan, odamlari rozi yurtga Yaratgan ham neʼmatlarini yogʻdiradi inshaAlloh.</p>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/avia-bileti.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon" src="assets/images/avia-bileti.jpg" alt="">
                         <div class="DivFoter">
-                            <h6 style="margin-top:10px;text-align: center "><i class="fa-solid fa-ticket-simple"></i>
-                                AVIA CHIPTA</h6>
+                            <h6 style="margin-top:10px;text-align: center "><i class="fa-solid fa-ticket-simple"></i> AVIA CHIPTA</h6>
                             <div style="width: 100%; display: flex; justify-content:center;">
                                 <button onclick="BizningOpen4()" class="buttonBatafsil1">Batafsil</button>
-
+    
                             </div>
-
+                            
                             <div id="modalBiznig4">
                                 <div class="modalBiznig4">
                                     <span id="YopishModal4"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                     <div class="modalCard4">
                                         <div class="cardimg">
                                             <div>
-                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviasamolat.webp"
-                                                    alt="">
-                                                <p class="mexmonsize">Umri davomida bir marta umraga, bir marta hajga
-                                                    borib, muqaddas makonlarda bo‘lib, Madinai munavvarada Payg‘ambar
-                                                    sollallohu alayhi vasallamning ravzai shariflarini ziyorat qilish,
-                                                    Masjidun Nabaviyda boshini sajdaga qo‘yish, Makkai mukarramani
-                                                    ziyorat qilib Rabbimiz farz qilgan haj amallarini bajarib, Islomning
-                                                    beshinchi arkonini ham ado etish har bir musulmon va muslimaning
-                                                    orzusi. Mehribon Parvardigorimiz barchamizni shunday farahli
-                                                    kunlarga yetkazsin.</p>
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviasamolat.webp" alt="">
+                                                <p class="mexmonsize">Umri davomida bir marta umraga, bir marta hajga borib, muqaddas makonlarda bo‘lib, Madinai munavvarada Payg‘ambar sollallohu alayhi vasallamning ravzai shariflarini ziyorat qilish, Masjidun Nabaviyda boshini sajdaga qo‘yish, Makkai mukarramani ziyorat qilib Rabbimiz farz qilgan haj amallarini bajarib, Islomning beshinchi arkonini ham ado etish har bir musulmon va muslimaning orzusi. Mehribon Parvardigorimiz barchamizni shunday farahli kunlarga yetkazsin.</p>
                                             </div>
                                             <div>
 
-                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviares.jpg"
-                                                    alt="">
-                                                <p class="mexmonsize">Ammo vaqti-vaqti bilan hajga borish sharoitlari
-                                                    turli sabablarga ko‘ra o‘zgarib turadi, bu tabiiy hol, albatta.
-                                                    Aytaylik, Masjidul Haromda kapital ta’mirlash ishlari bajarilsa yoki
-                                                    Saudiya davlati siyosatida haj bilan bog‘liq o‘zgarishlar bo‘lsa, bu
-                                                    holatlar butun dunyo musulmonlarining haj safariga ta’sir
-                                                    ko‘rsatadi.</p>
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviares.jpg" alt="">
+                                                <p class="mexmonsize">Ammo vaqti-vaqti bilan hajga borish sharoitlari turli sabablarga ko‘ra o‘zgarib turadi, bu tabiiy hol, albatta. Aytaylik, Masjidul Haromda kapital ta’mirlash ishlari bajarilsa yoki Saudiya davlati siyosatida haj bilan bog‘liq o‘zgarishlar bo‘lsa, bu holatlar butun dunyo musulmonlarining haj safariga ta’sir ko‘rsatadi.</p>
                                             </div>
                                         </div>
                                     </div>
-
+    
                                 </div>
                             </div>
 
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/transfer.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon" src="assets/images/transfer.jpg" alt="">
                         <div class="DivFoter">
-                            <h6 style="margin-top:10px ; text-align: center;"><i class="fa-solid fa-car"></i> TRANSFER
-                                XIZMATI</h6>
+                            <h6 style="margin-top:10px ; text-align: center;"><i class="fa-solid fa-car"></i> TRANSFER XIZMATI</h6>
                             <div style="width: 100%; display: flex; justify-content:center;">
                                 <button onclick="BizningOpen5()" class="buttonBatafsil1">Batafsil</button>
-
+    
                             </div>
-
+                            
                             <div id="modalBiznig5">
                                 <div class="modalBiznig5">
                                     <span id="YopishModal5"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                     <div class="modalCard5">
                                         <div class="cardimg">
                                             <div>
-                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/transX.jpg"
-                                                    alt="">
-                                                <p class="mexmonsize">Makk va Madina shaharlarida ziyoratchilarimizga
-                                                    xizmat ko'rsatayotgan avtobus hamda yengil avtomobillar</p>
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/transX.jpg" alt="">
+                                                <p class="mexmonsize">Makk va Madina shaharlarida ziyoratchilarimizga xizmat ko'rsatayotgan avtobus hamda yengil avtomobillar</p>
                                             </div>
                                             <div>
 
-                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviares.jpg"
-                                                    alt="">
-                                                <p class="mexmonsize">Makk va Madina shaharlarida ziyoratchilarimizga
-                                                    xizmat ko'rsatayotgan avtobus hamda yengil avtomobillar.</p>
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/aviares.jpg" alt="">
+                                                <p class="mexmonsize">Makk va Madina shaharlarida ziyoratchilarimizga xizmat ko'rsatayotgan avtobus hamda yengil avtomobillar.</p>
                                             </div>
                                         </div>
                                     </div>
-
+    
                                 </div>
                             </div>
 
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <img class="imgFon" src="assets/images/milliy-taom.jpg" alt="">
+                        <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="imgFon" src="assets/images/milliy-taom.jpg" alt="">
                         <div class="DivFoter ">
 
-                            <h6 style="margin-top:10px ; text-align: center;"><i class="fa-solid fa-utensils"></i>
-                                2-MAHAL TAOM</h6>
+                            <h6 style="margin-top:10px ; text-align: center;"><i class="fa-solid fa-utensils"></i> 2-MAHAL TAOM</h6>
                             <div style="width: 100%; display: flex; justify-content:center;">
                                 <button onclick="BizningOpen6()" class="buttonBatafsil1">Batafsil</button>
-
+    
                             </div>
-
+                            
                             <div id="modalBiznig6">
                                 <div class="modalBiznig6">
                                     <span id="YopishModal6"><i class="fas fa-times fa-lg fa-fw"></i></span>
                                     <div class="modalCard6">
                                         <div class="cardimg">
                                             <div>
-                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/ovqat.jpeg"
-                                                    alt="">
-                                                <p class="mexmonsize">Ziyoratchilar safar davomida mehmonhona
-                                                    restoranida shved uslubida ertalabki nonushtalarni tanovul
-                                                    qilishlari hamda O'zbek milliy taomlaridan kechqurungi ovqatlanishda
-                                                    tanavul qilishlari mumkin bo'ladi taomlar sifatli va talabga javob
-                                                    beradi.</p>
+                                                <img class="Madinadigi-ziyoratlarr" src="assets/images/ovqat.jpeg" alt="">
+                                                <p class="mexmonsize">Ziyoratchilar safar davomida mehmonhona restoranida shved uslubida ertalabki nonushtalarni tanovul qilishlari hamda  O'zbek milliy taomlaridan kechqurungi ovqatlanishda tanavul qilishlari mumkin bo'ladi taomlar sifatli va talabga javob beradi.</p>
                                             </div>
                                             <div>
-
+    
                                                 <!-- <img class="Madinadigi-ziyoratlarr" src="assets/images/aviares.jpg" alt="">
                                                 <p class="mexmonsize">Makk va Madina shaharlarida ziyoratchilarimizga xizmat ko'rsatayotgan avtobus hamda yengil avtomobillar.</p> -->
                                             </div>
                                         </div>
                                     </div>
-
+    
                                 </div>
                             </div>
                         </div>
@@ -726,13 +825,12 @@
         <!-- Bizni xizmatlar end -->
         <!-- Map start -->
         <div class="map">
-            <span class="manzil" onclick="openManzil()"> <i class="fas fa-location-dot fa-lg fa-fw"></i>
-                Manzilimiz</span>
+            <span class="manzil" onclick="openManzil()" > <i class="fas fa-location-dot fa-lg fa-fw"></i> Manzilimiz</span>
 
             <div class="map-card" id="map-card">
                 <p>
                     <strong>Manzilimiz:</strong> Andijon shaxar , Mustaqilik shox ko'chasi 4-uy <br>
-                    <strong>Mo'ljal:</strong> Devonaboy Masjididan 50 metr pastroqda <br>
+                    <strong>Mo'ljal:</strong> Devoaoboy Masjididan 50 metr pastroqda <br>
                     <strong>Aloqa:</strong>
                 </p>
                 <li>UZB <a href="tel:+998906235577">+998906235577</a></li>
@@ -741,13 +839,11 @@
                 <!-- <li>KRG'<a href="">+966598270101</a></li> -->
 
             </div>
+            <div style="width: 100%; min-height: 60vh;"><iframe
 
-            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Andijan%20%20%20Maretti+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                        href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe>
-            </div>
-
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.85040386988!2d72.33888371596827!3d40.78730284094105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bceba32cd04c5d%3A0x2bd678fef7bf825e!2sAndijon%20shahar%20Mustaqillik%20ko&#39;chasi!5e0!3m2!1sru!2s!4v1661242102575!5m2!1sru!2s"
+                    width="100%" style="border:0; min-height: 60vh;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
         <!-- Map end -->
         <!-- Footer start -->
@@ -794,7 +890,6 @@
         </div>
         <!-- Footer end -->
     </div>
-
     <script src="js/modal.js"></script>
     <script src="js/main.js"></script>
     <script src="js/batafsil.js"></script>
@@ -805,10 +900,8 @@
             offset: 5,
             delay: 10,
         });
-        AOS.refresh(); 
+        AOS.refresh();
     </script>
     </script>
-
 </body>
-
 </html>

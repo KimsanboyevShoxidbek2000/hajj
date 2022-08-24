@@ -156,7 +156,16 @@
                     font-weight: bold;
                 }
             }
+            .col-6 {
+                margin-top: 20px;
+                transition: 1.3s;
+            }
 
+            .col-6:hover {
+                transform: scale(1.1);
+                transition: 1.1s;
+                cursor: pointer;
+            }
             .col-lg-4 {
                 text-align: center;
                 margin-top: 5vh;
@@ -171,6 +180,28 @@
                 }
             }
         }
+    }
+
+    .imgFon1 {
+        border-radius: 15px;
+        // object-fit: cover;
+        transition: 1s;
+    
+    }
+    
+    
+    .imgFon1:hover {
+        transform: scale(1.05);
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
+    }
+    .Madinadigi-ziyoratlarr1 {
+        width: 100%;
+    }
+    
+    .Madinadigi-ziyoratlarr {
+        border-radius: 7px;
     }
 
     //  Madina style
@@ -500,6 +531,20 @@
 
     transition: 1s;
 
+}
+.imgFon1 {
+    border-radius: 15px;
+    // object-fit: cover;
+    transition: 1s;
+
+}
+
+
+.imgFon1:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 1px rgb(85, 51, 51);
 }
 
 .imgFon:hover {
@@ -968,6 +1013,13 @@
 
 .Madinadigi-ziyoratlarr {}
 
+.Madinadigi-ziyoratlarr1 {
+    width: 100%;
+}
+
+.Madinadigi-ziyoratlarr {
+    border-radius: 7px;
+}
 .modalCard1 {
     padding-top: 40px;
 
@@ -1057,6 +1109,275 @@
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
+}
+
+
+#modalBiznig11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig11{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100 auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal11 {
+
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+    padding-top: 10px;
+
+}
+
+
+.modalCard11 {
+    padding-top: 40px;
+    display: flex;
+
+}
+
+#YopishModal11:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+#modalBiznig22 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig22{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal22 {
+    padding-right: 30px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+
+}
+
+
+.modalCard22 {
+    padding-top: 40px;
+
+}
+
+#YopishModal22:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+#modalBiznig33 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig33{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal33 {
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+
+}
+
+
+.modalCard33 {
+    padding-top: 40px;
+
+}
+
+#YopishModal33:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+#modalBiznig44 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig44{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal44 {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+
+
+.modalCard44 {
+    padding-top: 40px;
+
+}
+
+#YopishModal44:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+#modalBiznig55 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig55{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal55 {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+
+#YopishModal55:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+.modalCard55 {
+    padding-top: 40px;
+
+}
+
+.matnsiz18 {
+    font-size: 18px;
+    padding-top: 15px;
 }
 
 .modalBiznig3 {
@@ -1256,4 +1577,271 @@
     100%{
         transform: translateY(0);
     }
+}
+#modalBiznig11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig11{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100 auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal11 {
+
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+    padding-top: 10px;
+
+}
+
+
+.modalCard11 {
+    padding-top: 40px;
+    display: flex;
+
+}
+
+#YopishModal11:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+#modalBiznig22 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig22{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal22 {
+    padding-right: 30px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+
+}
+
+
+.modalCard22 {
+    padding-top: 40px;
+
+}
+
+#YopishModal22:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+#modalBiznig33 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig33{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal33 {
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+
+}
+
+
+.modalCard33 {
+    padding-top: 40px;
+
+}
+
+#YopishModal33:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+#modalBiznig44 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig44{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal44 {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+
+
+.modalCard44 {
+    padding-top: 40px;
+
+}
+
+#YopishModal44:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+#modalBiznig55 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modalBiznig55{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0 2%;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+#YopishModal55 {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+
+#YopishModal55:hover {
+    color: #F9B78B;
+    cursor: pointer;
+}
+
+
+.modalCard55 {
+    padding-top: 40px;
+
+}
+
+.matnsiz18 {
+    font-size: 18px;
+    padding-top: 15px;
 }
