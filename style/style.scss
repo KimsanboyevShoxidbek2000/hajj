@@ -638,6 +638,8 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
+    padding-top: 25px;
+
 }
 
 #Closed1:hover {
@@ -651,7 +653,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -701,7 +704,8 @@
     padding: 0 2%;
 
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -720,6 +724,7 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
+    padding-top: 25px;
 }
 
 #Closed2:hover {
@@ -765,7 +770,8 @@
     padding: 0 2%;
 
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -784,6 +790,7 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
+    padding-top: 25px;
 }
 
 #Closed3:hover {
@@ -827,7 +834,8 @@
     padding: 0 2%;
 
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -846,6 +854,7 @@
     padding: 20px;
     color: black;
     cursor: pointer;
+    padding-top: 25px;
 }
 
 #Closed4:hover {
@@ -892,7 +901,8 @@
     padding: 0 2%;
 
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -909,6 +919,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 25px !important;
     align-items: flex-end;
     padding: 20px;
 }
@@ -957,7 +968,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -994,7 +1006,7 @@
     padding-top: 10px;
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 20px;
 
 }
 
@@ -1005,13 +1017,16 @@
 
 .quronmatnn {
     text-align: center;
+    padding-top: 20px;
 }
 
 .quronimatn {
     font-size: 20px !important;
 }
 
-.Madinadigi-ziyoratlarr {}
+.Madinadigi-ziyoratlarr {
+    margin-top: 20px;
+}
 
 .Madinadigi-ziyoratlarr1 {
     width: 100%;
@@ -1019,7 +1034,15 @@
 
 .Madinadigi-ziyoratlarr {
     border-radius: 7px;
+    transition: 1.1s;
 }
+
+.Madinadigi-ziyoratlarr:hover {
+    transform: scale(1.04);
+    transition: 1.1s;
+    cursor: pointer;
+}
+
 .modalCard1 {
     padding-top: 40px;
 
@@ -1030,7 +1053,15 @@
     font-size: 18px;
 }
 
-
+.Madinadigi-ziyoratlarrH {
+    transition: 1.1s;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Madinadigi-ziyoratlarrH:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
 
 #modalBiznig2 {
     display: none;
@@ -1061,7 +1092,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1296,7 +1328,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1376,7 +1409,7 @@
 }
 
 .matnsiz18 {
-    font-size: 18px;
+    font-size: 18px !important;
     padding-top: 15px;
 }
 
@@ -1386,7 +1419,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1433,7 +1467,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1447,7 +1482,11 @@
     padding-top: 10px;
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 20px;
+}
+#YopishModal4:hover {
+    cursor: pointer;
+    color: #fb8b24;
 }
 
 .modalCard4 {
@@ -1486,7 +1525,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1502,7 +1542,11 @@
     padding-top: 10px;
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 20px;
+}
+#YopishModal5:hover {
+    color: #fb8b24;
+    cursor: pointer;
 }
 
 
@@ -1668,12 +1712,15 @@
 
 
 
-#YopishModal22 {
-    padding-right: 30px;
+#YopishModal2 {
     padding-top: 10px;
     position: absolute;
-    right: 0;
+    padding-right: 30px;
+}
 
+#YopishModal2:hover {
+    color: #fb8b24;
+    cursor: pointer;
 }
 
 
@@ -1722,12 +1769,17 @@
 
 
 
-#YopishModal33 {
+#YopishModal3 {
     position: absolute;
-    right: 0;
     padding-top: 10px;
     padding-right: 30px;
+    padding-left: 30px;
 
+}
+
+#YopishModal3:hover{
+    cursor: pointer;
+    color: #F9B78B;
 }
 
 
@@ -1762,7 +1814,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1778,6 +1831,7 @@
     position: absolute;
     right: 0;
     padding-right: 30px;
+    padding-top: 10px;
 }
 
 
@@ -1812,7 +1866,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1828,6 +1883,7 @@
     position: absolute;
     right: 0;
     padding-right: 30px;
+    padding-top: 10px;
 }
 
 #YopishModal55:hover {
@@ -1844,4 +1900,7 @@
 .matnsiz18 {
     font-size: 18px;
     padding-top: 15px;
+}
+
+.row-col-6 {
 }
