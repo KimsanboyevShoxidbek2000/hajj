@@ -8,7 +8,7 @@ let menu = document.querySelector('#menu')
 setTimeout(() => {
     loader.style.display = 'none'
     hajjSection.style.display = 'block'
-}, 50)
+}, 5000)
 
 
 menuAction.addEventListener('click', () => {
@@ -19,7 +19,7 @@ menuAction.addEventListener('click', () => {
 
 
 let menuCard = document.getElementById('map-card')
-let indexMapCard = false
+let indexMapCard = true
 function openManzil() {
     if (indexMapCard) {
         menuCard.classList.add('menuCardActive')
