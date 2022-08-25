@@ -154,6 +154,13 @@
                 .makka-name {
                     font-size: 40px;
                     font-weight: bold;
+                    @media (max-width:450px) {
+                        font-size: 30px;
+                    }
+
+                    @media (max-width:370px) {
+                        font-size: 25px;
+                    }
                 }
             }
             .col-6 {
@@ -224,6 +231,13 @@
                 .makka-name {
                     font-size: 40px;
                     font-weight: bold;
+                    @media (max-width:450px) {
+                        font-size: 30px;
+                    }
+
+                    @media (max-width:370px) {
+                        font-size: 25px;
+                    }
                 }
             }
 
@@ -254,6 +268,13 @@
             text-align: center;
             font-size: 40px;
             font-weight: bold;
+            @media (max-width:450px) {
+                font-size: 32px;
+            }
+
+            @media (max-width:370px) {
+                font-size: 25px;
+            }
         }
 
         strong {
@@ -305,6 +326,13 @@
                 text-align: center;
                 font-weight: bold;
                 font-size: 40px;
+                @media (max-width:450px) {
+                    font-size: 30px;
+                }
+
+                @media (max-width:370px) {
+                    font-size: 25px;
+                }
             }
         }
 

@@ -124,6 +124,16 @@
   font-size: 40px;
   font-weight: bold;
 }
+@media (max-width: 450px) {
+  .hajj-section .makka .container .col-12 .makka-name {
+    font-size: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .hajj-section .makka .container .col-12 .makka-name {
+    font-size: 25px;
+  }
+}
 .hajj-section .makka .container .col-6 {
   margin-top: 20px;
   transition: 1.3s;
@@ -173,6 +183,16 @@
   font-size: 40px;
   font-weight: bold;
 }
+@media (max-width: 450px) {
+  .hajj-section .madina .container .col-12 .makka-name {
+    font-size: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .hajj-section .madina .container .col-12 .makka-name {
+    font-size: 25px;
+  }
+}
 .hajj-section .madina .container .col-lg-4 {
   text-align: center;
   margin-top: 5vh;
@@ -196,6 +216,16 @@
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+}
+@media (max-width: 450px) {
+  .hajj-section .paketlar .paket-name {
+    font-size: 32px;
+  }
+}
+@media (max-width: 370px) {
+  .hajj-section .paketlar .paket-name {
+    font-size: 25px;
+  }
 }
 .hajj-section .paketlar strong {
   font-size: 20px;
@@ -236,6 +266,16 @@
   text-align: center;
   font-weight: bold;
   font-size: 40px;
+}
+@media (max-width: 450px) {
+  .hajj-section .service .col-12 p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .hajj-section .service .col-12 p {
+    font-size: 25px;
+  }
 }
 .hajj-section .service .col-lg-4 img {
   width: 100%;
