@@ -134,6 +134,11 @@
     font-size: 25px;
   }
 }
+@media (max-width: 290px) {
+  .hajj-section .makka .container .col-12 .makka-name {
+    font-size: 18px;
+  }
+}
 .hajj-section .makka .container .col-6 {
   margin-top: 20px;
   transition: 1.3s;
@@ -191,6 +196,11 @@
 @media (max-width: 370px) {
   .hajj-section .madina .container .col-12 .makka-name {
     font-size: 25px;
+  }
+}
+@media (max-width: 290px) {
+  .hajj-section .madina .container .col-12 .makka-name {
+    font-size: 18px;
   }
 }
 .hajj-section .madina .container .col-lg-4 {
