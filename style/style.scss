@@ -352,6 +352,7 @@
             img {
                 width: 100%;
                 height: 300px;
+                // object-fit:fill;
                
             }
         }
@@ -437,8 +438,10 @@
         .row {
             .col-6 {
                 img {
+                    object-fit: cover;
                     @media (max-width:440px) {
                         height: 180px;
+                        object-fit: cover;
                     }
                 }
             }

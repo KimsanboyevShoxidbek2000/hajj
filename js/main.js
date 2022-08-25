@@ -8,7 +8,7 @@ let menu = document.querySelector('#menu')
 setTimeout(() => {
     loader.style.display = 'none'
     hajjSection.style.display = 'block'
-}, 5000)
+}, 5)
 
 
 menuAction.addEventListener('click', () => {
