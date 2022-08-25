@@ -173,7 +173,15 @@
                 img {
                     width: 100%;
                     height: 300px;
+                    @media (max-width:440px ) {
+                                height: 200px;
+                    }
                 }
+
+             
+
+
+
 
                 h3 {
                     margin-top: 2vh;
@@ -181,6 +189,8 @@
             }
         }
     }
+
+    
 
     .imgFon1 {
         border-radius: 15px;
@@ -224,6 +234,9 @@
                 img {
                     width: 100%;
                     height: 300px;
+                    @media (max-width:440px) {
+                        height: 200px;
+                    }
                 }
 
                 h3 {
@@ -256,6 +269,7 @@
                 border: 2.5px solid #c9c0b9;
                 min-height: 20vh;
                 width: 100%;
+                height: auto !important;
                 background-color: #F8F9FA;
                 color: black;
                 border-radius: 10px;
@@ -589,6 +603,7 @@
 
 .DivFoter {
     height: 70px;
+    border: 5px silid green;
 }
 
 .buttonBatafsil {
@@ -934,10 +949,7 @@
     // border-radius: 10px;
 }
 
-.ecoomFon1 {
-    border-radius: 10px;
-    // border: 1px solid red;
-}
+
 
 #modalBiznig1 {
     display: none;
@@ -1035,6 +1047,9 @@
 .Madinadigi-ziyoratlarr {
     border-radius: 7px;
     transition: 1.1s;
+}
+.col-sm-6 {
+    padding-top: 20px;
 }
 
 .Madinadigi-ziyoratlarr:hover {
@@ -1166,7 +1181,7 @@
     padding: 0 2%;
     border: 1px solid #888;
     width: 100%;
-    height: 100 auto;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1345,6 +1360,7 @@
     position: absolute;
     right: 0;
     padding-right: 30px;
+
 }
 
 
@@ -1479,10 +1495,10 @@
 }
 
 #YopishModal4 {
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
     right: 0;
-    padding-right: 20px;
+    margin-right: 10px;
 }
 #YopishModal4:hover {
     cursor: pointer;
@@ -1586,7 +1602,8 @@
     margin: auto;
     padding: 0 2%;
     border: 1px solid #888;
-    width: 50%;
+    width: 100%;
+    height: auto;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1599,10 +1616,15 @@
 
 
 #YopishModal6 {
-    padding-top: 10px;
+    padding-top: 15px;
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 15px;
+}
+
+#YopishModal6:hover {
+    color: #F9B78B;
+    cursor: pointer;
 }
 
 
