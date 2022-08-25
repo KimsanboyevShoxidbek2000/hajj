@@ -129,6 +129,11 @@
     font-size: 30px;
   }
 }
+@media (max-width: 222px) {
+  .hajj-section .makka .container .col-12 .makka-name {
+    font-size: 15px !important;
+  }
+}
 @media (max-width: 370px) {
   .hajj-section .makka .container .col-12 .makka-name {
     font-size: 25px;
@@ -191,6 +196,11 @@
 @media (max-width: 450px) {
   .hajj-section .madina .container .col-12 .makka-name {
     font-size: 30px;
+  }
+}
+@media (max-width: 222px) {
+  .hajj-section .madina .container .col-12 .makka-name {
+    font-size: 15px !important;
   }
 }
 @media (max-width: 370px) {
@@ -335,6 +345,11 @@
   text-decoration: none;
   font-size: 18px;
 }
+@media (max-width: 440px) {
+  .hajj-section .container .row .col-6 img {
+    height: 180px;
+  }
+}
 .hajj-section .map {
   position: relative;
 }
@@ -354,6 +369,9 @@
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+.hajj-section .map .manzil:hover {
+  transform: translateY(-20px);
 }
 .hajj-section .map .map-card {
   width: 301px;

@@ -157,6 +157,9 @@
                     @media (max-width:450px) {
                         font-size: 30px;
                     }
+                    @media (max-width:222px) {
+                        font-size: 15px !important;
+                    }
 
                     @media (max-width:370px) {
                         font-size: 25px;
@@ -236,6 +239,9 @@
                     font-weight: bold;
                     @media (max-width:450px) {
                         font-size: 30px;
+                    }
+                    @media (max-width:222px) {
+                        font-size: 15px !important;
                     }
 
                     @media (max-width:370px) {
@@ -346,6 +352,7 @@
             img {
                 width: 100%;
                 height: 300px;
+               
             }
         }
     }
@@ -426,6 +433,19 @@
 
     }
 
+    .container {
+        .row {
+            .col-6 {
+                img {
+                    @media (max-width:440px) {
+                        height: 180px;
+                    }
+                }
+            }
+        }
+    }
+
+
     // map style start
     .map {
         position: relative;
@@ -443,7 +463,7 @@
             animation-timing-function: linear;
             animation-iteration-count: infinite;
             &:hover{
-                // transform: translateY(-20px);
+                transform: translateY(-20px);
             }
         }
 
