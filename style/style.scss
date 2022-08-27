@@ -7,6 +7,7 @@
     font-family: "Montserrat", sans-serif;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .hajj-section {
@@ -39,16 +40,14 @@
             align-items: center;
             justify-content: space-between;
             width: 100%;
-            border: 1px solid red;
             padding: 0 8%;
             color: white;
             background-color: rgba(0, 0, 0, 0.9);
-            height: 12vh;
-
             .brand {
                 img {
                     width: 70px;
                     height: 70px;
+                    border: 1px solid red;
                 }
             }
 
@@ -57,9 +56,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                // background-color: pink;
                 width: 60%;
                 list-style: none;
-
+                height: 10vh;
+                padding-top: 10px;
                 li {
                     a {
                         text-decoration: none;
@@ -87,10 +88,17 @@
                     border: 1px solid rgb(249, 183, 139);
 
                 }
+                @media screen and (max-width: 992px) {
+                    display: none;
+                }
             }
 
             .menu-bars {
-
+                 display: flex;
+                 align-items: center;
+                 
+                 justify-content: space-between;
+                //  background-color: pink;
                 i {
                     display: none;
                     cursor: pointer;
