@@ -35,4 +35,17 @@ function openManzil() {
 }
 
 
+let modalcha = document.querySelector('.modalcha')
+// let modalchaContent = document.querySelector('.modalcha-content')
 
+function openModalcha() {
+    modalcha.style.display = 'flex'
+}
+
+window.onclick = function (event) {
+    if (event.target == modalcha) {
+        // modalcha.style.display = "none";
+        alert('salom')
+    }
+
+  }
